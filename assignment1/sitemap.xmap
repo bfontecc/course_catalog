@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<map:sitemap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://apache.org/cocoon/sitemap/1.0 http://cocoon.apache.org/schema/sitemap/cocoon-sitemap-1.0.xsd"
+ xmlns:map="http://apache.org/cocoon/sitemap/1.0">
+
+  <map:flow language="javascript"/>
+
+  <map:pipelines>
+    <map:pipeline id="xbel">
+      <map:match pattern="xbel">
+        <map:redirect-to uri="xbel/index.html"/>
+      </map:match>
+      <map:match pattern="xbel/">
+        <map:redirect-to uri="index.html"/>
+      </map:match>
+      <map:match pattern="xbel/xbel-*.html">
+        <map:generate src="xbel/xbel-{1}.xml"/>
+        <map:transform src="xbel/xbel.xsl" type="xslt2">
+          <map:parameter name="use-request-parameters" value="true"/>
+        </map:transform>
+        <map:serialize type="xhtml"/>
+      </map:match>
+    </map:pipeline>
+
+  <map:pipeline id="weather">
+
+<map:match pattern="">
+<map:redirect-to uri="index.html"/>
+</map:match>
+
+<map:match pattern="rss/myrss.html">
+<map:generate src="rss/myrss.xml" />
+<map:transform src="rss/rss.xsl" type="xslt2" />
+<map:serialize type="xhtml"/>
+</map:match>
+
+<map:match pattern="rss/dynamic/**.html">
+<map:generate src="http://newsrss.bbc.co.uk/rss/newsonline_world_edition/{1}/rss.xml"/>
+<map:transform src="rss/rss.xsl" type="xslt2"/>
+<map:serialize type="xhtml"/>
+</map:match>
+
+<map:match pattern="weather/*.xml">
+<map:generate src="http://www.weather.gov/xml/current_obs/{1}.xml" />
+<map:transform src="weather/resources/identity.xsl" type="xslt2" />
+<map:serialize type="xml" />
+</map:match>
+
+<map:match pattern="weather/stations.html">
+<map:generate src="http://www.weather.gov/xml/current_obs/index.xml" />
+<map:transform src="weather/resources/stations.xsl" type="xslt2" />
+<map:serialize type="xhtml" />
+</map:match>
+
+<map:match pattern="weather/*.html">
+<map:generate src="http://www.weather.gov/xml/current_obs/{1}.xml" />
+<map:transform src="weather/weather.xsl" type="xslt2" />
+<map:serialize type="xhtml" />
+</map:match>
+
+<map:match pattern="**.html">
+<map:read src="{1}.html" mime-type="text/html" />
+</map:match>
+<map:match pattern="**.xml">
+<map:read src="{1}.xml" mime-type="text/xml" />
+</map:match>
+<map:match pattern="**.xsl">
+<map:read src="{1}.xsl" mime-type="text/xsl" />
+</map:match>
+<map:match pattern="**.png">
+<map:read src="{1}.png" mime-type="image/png" />
+</map:match>
+
+  </map:pipeline>
+  </map:pipelines>
+</map:sitemap>

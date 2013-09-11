@@ -1,0 +1,145 @@
+<html>
+<head><title>CSCI E-18 Assignment 1</title>
+<style type="text/css">
+html, body, td { font-family:Calibri,Verdana,Tahoma,Arial,Helvetica,sans-serif;}
+code {color: #090; font-family: Courier,monospace; font-weight: bold;}
+.section {padding: 0 1em 1em 1em; border:medium solid #999; margin: 1em; }
+.subsection {padding: 0 1em 1em 1em; border:thin solid #999; margin: 1em; }
+table {border-collapse: collapse;}
+table td, table th { border: thin solid black; text-align: left;}
+table td, table th {padding: 0.5em;}
+table thead th { background-color: #ddd; }
+.dothis { color: red; background-color: #ff7; font-weight: bold;}
+</style></head>
+<body>
+<h1>CSCI E-18 Assignment 1</h1>
+<div class="section">
+<h2>Answers</h2>
+<p>The <code>answers.xml</code> file should be edited to include the information requested.</p>
+<ul>
+<li><a href="answers.xml">answers.xml</a> <span class="dothis">(You need to edit this file)</span></li>
+</ul>
+</div>
+<div class="section">
+<h2>Cocoon Test</h2>
+<p>Confirm that the following links work, and provide information requested in <code>answers.xml</code>:</p>
+<ul>
+<li><a href="../test0">Test 0</a> (Displays request information)</li>
+<li><a href="../test1">Test 1</a> (confirms a working XSL 1.0 processor)</li>
+<li><a href="../test2">Test 2</a> (confirms a working XSL 2.0 processor)</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>Produce XHTML from XML and XSLT</h2>
+<p>Use the XSLT processor Saxon to produce an XHTML (<code>rss/bbc.html</code>) file from <code>rss/bbc_rss.xml</code> and <code>rss/rss.xsl</code></p>
+<ul>
+<li><a href="rss/bbc_rss.xml">rss/bbc_rss.xml</a> (File provided)</li>
+<li><a href="rss/rss.xsl">rss/rss.xsl</a> (File provided)</li>
+<li><a href="rss/bbc.html">rss/bbc.html</a> <span class="dothis">(You need to generate this file, add and commit it to your git repository)</span></li>
+</ul>
+<div class="subsection">
+<h3>Dynamic Processing of BBC RSS with Cocoon</h3>
+<p>There is nothing you need to do here -- these links are just to see how Cocoon can perform the XSLT on demand.<br/>The following links will cause Cocoon to fetch the BBC RSS feed and transform with the XSLT document dynamically.</p>
+<ul>
+<li><a href="rss/dynamic/front_page.html">Front Page</a></li>
+<li><a href="rss/dynamic/uk_news.html">UK</a></li>
+<li><a href="rss/dynamic/science/nature.html">Science/Nature</a></li>
+<li><a href="rss/dynamic/technology.html">Technology</a></li>
+</ul>
+</div>
+</div>
+<div class="section">
+<h2>Write an XSLT to Produce XHTML from NOAA NWS Weather XML</h2>
+<p>Edit the XSLT (<code>weather/weather.xsl</code>) so that the XSLT and NOAA NWS Weather XML produce 
+XHTML output that displays the current conditions.  Note that Cocoon is configured so that the links in the XHTML column will dynamically produce the XHTML from your <code>weather/weather.xsl</code> and the current NOAA NWS Weather XML.</p>
+<ul>
+<li><a href="weather/weather.xsl">weather/weather.xsl</a> <span class="dothis">(You need to edit this file and commit changes to your git repository)</span></li>
+</ul>
+<table>
+<thead>
+<tr><th>Station Code</th><th>NOAA NWS Weather XML</th><th>XHTML</th></tr>
+</thead>
+<tbody>
+<tr>
+<th>KBOS - Boston</th>
+<td><a href="weather/KBOS.xml">KBOS.xml</a></td>
+<td><a href="weather/KBOS.html">KBOS.html</a></td>
+</tr>
+<tr>
+<th>KSFO - San Francisco</th>
+<td><a href="weather/KSFO.xml">KSFO.xml</a></td>
+<td><a href="weather/KSFO.html">KSFO.html</a></td>
+</tr>
+<tr>
+<th>KMCI - Kansas City</th>
+<td><a href="weather/KMCI.xml">KMCI.xml</a></td>
+<td><a href="weather/KMCI.html">KMCI.html</a></td>
+</tr>
+<tr>
+<th>KDFW - Dallas/Fort Worth</th>
+<td><a href="weather/KDFW.xml">KDFW.xml</a></td>
+<td><a href="weather/KDFW.html">KDFW.html</a></td>
+</tr>
+<tr>
+<th>KSEA - Seattle</th>
+<td><a href="weather/KSEA.xml">KSEA.xml</a></td>
+<td><a href="weather/KSEA.html">KSEA.html</a></td>
+</tr>
+<tr>
+<th>KMIA - Miami</th>
+<td><a href="weather/KMIA.xml">KMIA.xml</a></td>
+<td><a href="weather/KMIA.html">KMIA.html</a></td>
+</tr>
+<tr>
+<th>KDEN - Denver</th>
+<td><a href="weather/KDEN.xml">KDEN.xml</a></td>
+<td><a href="weather/KDEN.html">KDEN.html</a></td>
+</tr>
+</tbody>
+</table>
+<p>See the <a href="weather/stations.html">full list of NOAA NWS Weather Stations</a> and see your XSLT in action.
+</p>
+<div class="subsection">
+<h3>Example Output</h3>
+<p>Example output and a screenshot is provided.  Your output does not need to look exactly like this, but it should display the same type of data (location, conditions with icon, temperature, wind, humidity, pressure, dew point, visibility, last updated, links to current and two day history, image and link to NOAA NWS.</p>
+<p><img src="weather/resources/weather-sfo.png" alt="Weather Example" />
+<br/><a href="weather/resources/KSFO.html">Example XHTML Output</a></p>
+</div>
+</div>
+    <div class="section">
+      <h2>Write an XSLT in "push" Style with XBEL as source XML</h2>
+<h3>Sample XBEL</h3>
+      <ul>
+        <li>
+          <a href="xbel/xbel-sample.xml">xbel-sample.xml</a>
+	</li>
+        <li>
+          <a href="xbel/xbel.xsl">xbel.xsl</a><span class="dothis">(You need to edit this file and commit changes to your git repository)</span>
+	</li>
+        <li>
+          <a href="xbel/xbel-sample.html?description=false">xbel-sample.html?description=false</a>
+	</li>
+        <li>
+          <a href="xbel/xbel-sample.html?description=true">xbel-sample.html?description=true</a>
+	</li>
+      </ul>
+      <h2>My XBEL File</h2>
+      <ul>
+        <li>
+          <a href="xbel/xbel-mine.xml">xbel-mine.xml</a><span class="dothis">(You may create your own XBEL file and commit changes to your git repository)</span>
+	</li>
+        <li>
+          <a href="xbel/xbel.xsl">xbel.xsl</a>
+	</li>
+        <li>
+          <a href="xbel/xbel-mine.html?description=false">xbel-mine.html?description=false</a>
+	</li>
+        <li>
+          <a href="xbel/xbel-mine.html?description=true">xbel-mine.html?description=true</a>
+	</li>
+      </ul>
+    </div>
+
+</body>
+</html>

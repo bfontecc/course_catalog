@@ -1,0 +1,147 @@
+<xbel version="1.0">
+  <title>Bookmarks from David</title>
+  <folder>
+    <title>Food</title>
+    <folder>
+      <title>Tea</title>
+      <bookmark href="http://www.uptontea.com/">
+        <title>Upton Tea Imports</title>
+        <desc>Upton Tea Imports was founded in 1989 with the objective of providing the North American tea drinker with the finest teas available. We purchase teas from reputable brokers and estates worldwide, dealing only with sources who are capable of providing top quality teas. We sell directly to the consumer, thus ensuring the freshest product and fairest pricing.</desc>
+      </bookmark>
+      <bookmark href="http://www.tealuxe.com/">
+        <title>Tealuxe</title>
+        <desc>Located at Zero Brattle St. Tealuxe began in Harvard Square in 1996. Tall ceilings, dark woods, copper table-tops, and vintage jazz create the setting; the smell of over 100 teas and jovial conversation create the atmosphere. We hope you enjoy your Tealuxe tea as much as we do.</desc>
+      </bookmark>
+      <bookmark href="http://www.dadotea.com/">
+        <title>Dado Tea</title>
+        <desc>50 Church St and 955 Massachusetts Ave in Cambridge. Dado Tea is owned and operated locally. It seeks to serve healthy food that nourishes the mind and body of its customers.</desc>
+      </bookmark>
+      <bookmark href="http://memteaimports.com/">
+        <title>MEM Tea Imports</title>
+        <desc>MEM Tea Imports is located in Somerville, MA. Its teas are available at many restaurants, including Crema Cafe. Its loose-leaf teas can be purchased in packets for home at Cardullo's Gourmet Shoppe.</desc>
+      </bookmark>
+    </folder>
+    <folder>
+      <title>Spices and Herbs</title>
+      <bookmark href="http://www.penzeys.com/">
+        <title>Penzeys Spices</title>
+        <desc>See why our unmatched quality, abundant variety, and love of everyone who cooks have made us the top on-line seller of spices. Penzeys for great flavor everyday.</desc>
+      </bookmark>
+    </folder>
+    <folder>
+      <title>Chips</title>
+      <bookmark href="http://www.dirtys.com/">
+        <title>Dirty Potato Chips</title>
+        <desc>At "Dirty's" we don't wash out the natural potato flavor, so our chips are crunchier and tastier. Enjoy - John Shaw, Chip Master</desc>
+      </bookmark>
+      <bookmark href="http://www.artsandmarys.com/">
+        <title>Art's and Mary's: Homestyle Tater Chips</title>
+        <desc>At Art's and Mary's, we understand Americans' desire for potato chips that are more that just another snack. When they want to treat themselves to something special, they appreciate a chip that's cut thick and bursting with bold flavor. That's why they pass up all those ordinary chips and pick up a bag of Art's and Mary's. After all...Why Eat the Ordinary?</desc>
+      </bookmark>
+      <bookmark href="http://www.timschips.com/">
+        <title>Tim's Cascade Style Potato Chips</title>
+        <desc>Tim's has been creating our famous chips in the shadow of the Cascade Mountain range since 1986 using an old family recipe. By starting with premium potatoes direct from family owned farms and only the finest blends of real seasonings, we think you'll agree that you have discovered what you have been looking for from your first satisfying crunch</desc>
+      </bookmark>
+      <bookmark href="http://www.capecodchips.com/">
+        <title>Cape Cod Potato Chips</title>
+        <desc>For over 25 years, Cape Cod Potato Chips has brought you all-natural goodness and fresh flavors with our hand-stirred kettle-cooked chips. The legendary crunch of our chips have made them a classic on the Cape and around the world.</desc>
+      </bookmark>
+    </folder>
+    <folder>
+      <title>Lunch in Harvard Square</title>
+      <bookmark href="http://www.pinocchiospizza.net/">
+        <title>Pinocchio's Pizza &amp; Subs</title>
+        <desc>74 Winthrop St. Noch's has been serving up great pizza and subs to Harvard University students for over 30 years. Come to Pinocchio's and have the best slices of Sicilian pizza and mouth-watering steak sandwiches!</desc>
+      </bookmark>
+      <bookmark href="http://www.felipestaqueria.com/">
+        <title>Felipe's Taqueria</title>
+        <desc>Felipe's Taqueria serves authentic Mexican food to the Cambrdige and Boston area. Our menu, contact information, location, and catering information are all listed here at Felipes Taqueria website. We also cater Mexican and Latin food to Boston, Massachusetts.</desc>
+      </bookmark>
+      <bookmark href="http://www.cremacambridge.com/">
+        <title>Crema Cafe</title>
+        <desc>27 Brattle St. At Crema you can meet, chat, sip, read, write, watch, think, taste and enjoy in an atmosphere that you simultaneously create and absorb. Our goal is for Crema to be a familiar, warm nook in the world where you can enjoy some of the best things in life &#195;&#8218; a delicious cup of coffee or tea, homemade baked goods straight from the oven, and yummy fresh food in a environment with both stimulating conversation and calm quiet.</desc>
+      </bookmark>
+      <bookmark href="http://www.yelp.com/biz/falafel-corner-cambridge">
+        <title>Falafel Corner</title>
+        <desc>A great place for falafel and more!</desc>
+      </bookmark>
+    </folder>
+  </folder>
+  <folder>
+    <title>Web Browsers / HTTP Clients</title>
+    <bookmark href="http://www.mozilla.com/firefox/">
+      <title>Firefox</title>
+      <desc>Firefox Browser - Free ways to customize your Internet</desc>
+    </bookmark>
+    <bookmark href="http://www.google.com/chrome">
+      <title>Google Chrome</title>
+      <desc>Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.</desc>
+    </bookmark>
+    <bookmark href="http://www.microsoft.com/ie/">
+      <title>Microsoft Internet Explorer</title>
+      <desc>Find out what&#195;&#8218;s new with Internet Explorer 8 performance and security and privacy features that help protect against malware and other online threats</desc>
+    </bookmark>
+    <bookmark href="http://www.apple.com/safari/">
+      <title>Apple - Safari</title>
+      <desc>Safari for Mac and PC puts the emphasis on browsing not the browser. Innovative features make your experience on the web better than it ever was.</desc>
+    </bookmark>
+    <bookmark href="http://www.opera.com/">
+      <title>Opera</title>
+      <desc>The fastest browser on Earth is even faster. But that is not all. Use Opera Turbo to double your page-download speed on slow connections. Download Opera now and get more from the Web</desc>
+    </bookmark>
+  </folder>
+  <folder>
+    <title>Extensible Markup Language (XML)</title>
+    <bookmark href="http://www.xml.org/">
+      <title>XML.org focus area community</title>
+      <desc>XML.org advances the use of open standards by providing educational information, discussion areas, and collaborative resources.</desc>
+    </bookmark>
+    <bookmark href="http://www.xml.com/">
+      <title>XML.com - XML From the Inside Out</title>
+      <desc>XML.com, where the XML community shares XML development resources and solutions, features timely news, opinions, features, and tutorials; the Annotated XML specification created by Tim Bray; authoring tools, XML developer resources, interactive forums...</desc>
+    </bookmark>
+    <bookmark href="http://xml.coverpages.org/">
+      <title>The Cover Pages</title>
+      <desc>The Cover Pages is a comprehensive, online reference collection supporting the XML family of markup language standards, XML vocabularies, and related structured information standards. Edited by Robin Cover since 1986, this public access knowledgebase promotes and enables the use of open, interoperable, standards-based solutions which protect digital information and enhance the quality of data processing.</desc>
+    </bookmark>
+    <bookmark href="http://www.oasis-open.org/">
+      <title>OASIS: Advancing open standards for the global information society</title>
+      <desc>OASIS (Organization for the Advancement of Structured Information Standards) is an international, not-for-profit consortium that drives the development, convergence and adoption of open standards for the global information society.</desc>
+    </bookmark>
+    <bookmark href="http://msdn.microsoft.com/xml">
+      <title>MSDN - XML Developer Center</title>
+      <desc>XML has become the almost universally supported way of exchanging documents and data across applications and platforms. Microsoft was a pioneer in XML development and takes pride in the quality, performance, and standards conformance of our XML technologies. We have a family of XML technologies that allows users with differing requirements to do what they need to do, as simply and efficiently as possible.</desc>
+    </bookmark>
+    <bookmark href="http://www.w3schools.com/xml/">
+      <title>XML Tutorial (W3Schools)</title>
+      <desc>Examples of viewing, parsing, displaying and transforming data.</desc>
+    </bookmark>
+    <bookmark href="http://www.w3.org/XML/">
+      <title>W3C Extensible Markup Language (XML)</title>
+      <desc>Main page for World Wide Web Consortium (W3C) XML activity and information.</desc>
+    </bookmark>
+    <folder>
+      <title>Specifications</title>
+      <bookmark href="http://www.w3.org/TR/xml">
+        <title>Extensible Markup Language (XML) 1.0 (Fourth Edition)</title>
+        <desc>The Extensible Markup Language (XML) is a subset of SGML that is completely described in this document. Its goal is to enable generic SGML to be served, received, and processed on the Web in the way that is now possible with HTML. XML has been designed for ease of implementation and for interoperability with both SGML and HTML.</desc>
+      </bookmark>
+      <bookmark href="http://www.w3.org/TR/xslt20">
+        <title>XSL Transformations (XSLT) Version 2.0</title>
+        <desc>This specification defines the syntax and semantics of XSLT 2.0, a language for transforming XML documents into other XML documents. XSLT 2.0 is a revised version of the XSLT 1.0 Recommendation [XSLT 1.0] published on 16 November 1999. XSLT 2.0 is designed to be used in conjunction with XPath 2.0, which is defined in [XPath 2.0]. XSLT shares the same data model as XPath 2.0, which is defined in [Data Model], and it uses the library of functions and operators defined in [Functions and Operators]. XSLT 2.0 also includes optional facilities to serialize the results of a transformation, by means of an interface to the serialization component described in [XSLT and XQuery Serialization].</desc>
+      </bookmark>
+      <bookmark href="http://www.w3.org/TR/xpath20/">
+        <title>XML Path Language (XPath) 2.0</title>
+        <desc>XPath 2.0 is an expression language that allows the processing of values conforming to the data model defined in [XQuery/XPath Data Model (XDM)]. The data model provides a tree representation of XML documents as well as atomic values such as integers, strings, and booleans, and sequences that may contain both references to nodes in an XML document and atomic values. The result of an XPath expression may be a selection of nodes from the input documents, or an atomic value, or more generally, any sequence allowed by the data model. The name of the language derives from its most distinctive feature, the path expression, which provides a means of hierarchic addressing of the nodes in an XML tree. XPath 2.0 is a superset of [XPath 1.0], with the added capability to support a richer set of data types, and to take advantage of the type information that becomes available when documents are validated using XML Schema. A backwards compatibility mode is provided to ensure that nearly all XPath 1.0 expressions continue to deliver the same result with XPath 2.0.</desc>
+      </bookmark>
+      <bookmark href="http://www.w3.org/TR/xslt">
+        <title>XSL Transformations (XSLT) Version 1.0</title>
+        <desc>This specification defines the syntax and semantics of XSLT, which is a language for transforming XML documents into other XML documents. XSLT is designed for use as part of XSL, which is a stylesheet language for XML. In addition to XSLT, XSL includes an XML vocabulary for specifying formatting. XSL specifies the styling of an XML document by using XSLT to describe how the document is transformed into another XML document that uses the formatting vocabulary. XSLT is also designed to be used independently of XSL. However, XSLT is not intended as a completely general-purpose XML transformation language. Rather it is designed primarily for the kinds of transformations that are needed when XSLT is used as part of XSL.</desc>
+      </bookmark>
+      <bookmark href="http://www.w3.org/TR/xpath">
+        <title>XML Path Language (XPath) Version 1.0</title>
+        <desc>XPath is a language for addressing parts of an XML document, designed to be used by both XSLT and XPointer.</desc>
+      </bookmark>
+    </folder>
+  </folder>
+</xbel>

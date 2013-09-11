@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">  
+  <channel> 
+    <title>BBC News - World</title>  
+    <link>http://www.bbc.co.uk/news/world/#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+    <description>The latest stories from the World section of the BBC News web site.</description>  
+    <language>en-gb</language>  
+    <lastBuildDate>Wed, 11 Sep 2013 22:19:34 GMT</lastBuildDate>  
+    <copyright>Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.</copyright>  
+    <image> 
+      <url>http://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif</url>  
+      <title>BBC News - World</title>  
+      <link>http://www.bbc.co.uk/news/world/#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <width>120</width>  
+      <height>60</height> 
+    </image>  
+    <ttl>15</ttl>  
+    <atom:link href="http://feeds.bbci.co.uk/news/world/rss.xml" rel="self" type="application/rss+xml"/>  
+    <item> 
+      <title>UN powers discuss Syria proposal</title>  
+      <description>Envoys of the five permanent UN Security Council members meet to discuss a Russian plan for making safe Syria's chemical weapons.</description>  
+      <link>http://www.bbc.co.uk/news/world-middle-east-24058006#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-middle-east-24058006</guid>  
+      <pubDate>Wed, 11 Sep 2013 20:53:58 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69798000/jpg/_69798663_ogz7y2yy.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69798000/jpg/_69798674_ogz7y2yy.jpg"/> 
+    </item>  
+    <item> 
+      <title>Battle continues in Syria's Maaloula</title>  
+      <description>The BBC's Jeremy Bowen sees fierce fighting in the ancient Christian town of Maaloula, despite reports that Syrian forces had retaken it.</description>  
+      <link>http://www.bbc.co.uk/news/world-middle-east-24051440#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-middle-east-24051440</guid>  
+      <pubDate>Wed, 11 Sep 2013 18:10:37 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69793000/jpg/_69793464_69788133.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69793000/jpg/_69793465_69788133.jpg"/> 
+    </item>  
+    <item> 
+      <title>US marks 9/11 attacks anniversary</title>  
+      <description>The US remembers the victims of the 9/11 attacks in a series of memorials marking the 12th anniversary.</description>  
+      <link>http://www.bbc.co.uk/news/world-us-canada-24052030#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-us-canada-24052030</guid>  
+      <pubDate>Wed, 11 Sep 2013 19:10:32 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69790000/jpg/_69790054_180296173.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69790000/jpg/_69790055_180296173.jpg"/> 
+    </item>  
+    <item> 
+      <title>Deadly attack near Iraq Shia mosque</title>  
+      <description>Two explosions near a Shia mosque in the Iraqi capital Baghdad have killed at least 35 people, officials say.</description>  
+      <link>http://www.bbc.co.uk/news/world-24056728#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-24056728</guid>  
+      <pubDate>Wed, 11 Sep 2013 19:28:58 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69796000/gif/_69796660_iraq_baghdad_08_12.gif"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69796000/gif/_69796661_iraq_baghdad_08_12.gif"/> 
+    </item>  
+    <item> 
+      <title>Germany court in 'burkini' ruling</title>  
+      <description>A court in Germany rules that a Muslim girl should take part in mixed-sex swimming lessons, saying she can wear a "burkini" garment.</description>  
+      <link>http://www.bbc.co.uk/news/world-europe-24055235#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-europe-24055235</guid>  
+      <pubDate>Wed, 11 Sep 2013 16:49:24 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69795000/jpg/_69795139_69790978.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69795000/jpg/_69795140_69790978.jpg"/> 
+    </item>  
+    <item> 
+      <title>Woman arrested with 'cocaine bump'</title>  
+      <description>A Canadian national is arrested in Bogota trying to board a flight to Toronto with a phony pregnant belly filled with cocaine, Colombian police say.</description>  
+      <link>http://www.bbc.co.uk/news/world-latin-america-24058118#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-latin-america-24058118</guid>  
+      <pubDate>Wed, 11 Sep 2013 21:50:10 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>China economy 'at crucial stage'</title>  
+      <description>China's premier says the country's economy is at a "crucial" stage, as he pledges to improve the investment climate for foreign companies.</description>  
+      <link>http://www.bbc.co.uk/news/business-24047426#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/business-24047426</guid>  
+      <pubDate>Wed, 11 Sep 2013 12:52:13 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69788000/jpg/_69788708_69788701.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69788000/jpg/_69788709_69788701.jpg"/> 
+    </item>  
+    <item> 
+      <title>Fatwa issued against al-Shabab</title>  
+      <description>Some 160 Somali religious scholars issue a fatwa denouncing al-Shabab, saying the militant group has no place in Islam.</description>  
+      <link>http://www.bbc.co.uk/news/world-africa-24057725#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-africa-24057725</guid>  
+      <pubDate>Wed, 11 Sep 2013 21:11:35 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69798000/jpg/_69798915_otw7f7dz.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69798000/jpg/_69798916_otw7f7dz.jpg"/> 
+    </item>  
+    <item> 
+      <title>Kenya discovers huge water source</title>  
+      <description>A huge water source has been discovered in the arid Turkana region of northern Kenya which could supply the country for 70 years, the government says.</description>  
+      <link>http://www.bbc.co.uk/news/science-environment-24049800#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/science-environment-24049800</guid>  
+      <pubDate>Wed, 11 Sep 2013 18:51:33 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69793000/jpg/_69793570_69793520.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69793000/jpg/_69793571_69793520.jpg"/> 
+    </item>  
+    <item> 
+      <title>Europe plans to end roaming charges</title>  
+      <description>The European Commission is proposing to scrap mobile phone roaming charges across Europe as part of a raft of measures to reform the telecoms market.</description>  
+      <link>http://www.bbc.co.uk/news/business-24056369#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/business-24056369</guid>  
+      <pubDate>Wed, 11 Sep 2013 17:24:56 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69795000/jpg/_69795476_69795471.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69795000/jpg/_69795477_69795471.jpg"/> 
+    </item>  
+    <item> 
+      <title>Afghan footballers in historic win</title>  
+      <description>Afghanistan wins its first international football trophy, beating India 2-0 in the final of the South Asian Football Federation Championship.</description>  
+      <link>http://www.bbc.co.uk/news/world-asia-24053018#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-asia-24053018</guid>  
+      <pubDate>Wed, 11 Sep 2013 16:56:43 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69795000/jpg/_69795455_afghanistanwon42.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69795000/jpg/_69795456_afghanistanwon42.jpg"/> 
+    </item>  
+    <item> 
+      <title>Panda diplomacy sparks Belgium row</title>  
+      <description>China's loan of two giant pandas to Belgium triggers a row, after it emerges the bears will go to a zoo in the French-speaking part of the country.</description>  
+      <link>http://www.bbc.co.uk/news/world-europe-24049879#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-europe-24049879</guid>  
+      <pubDate>Wed, 11 Sep 2013 17:04:04 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69795000/jpg/_69795611_panda_pa.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69795000/jpg/_69795612_panda_pa.jpg"/> 
+    </item>  
+    <item> 
+      <title>Golf club apologises for 9/11 offer</title>  
+      <description>The owner of a Wisconsin golf course that advertised nine holes of golf for $9.11 to mark the 9/11 anniversary apologises after a backlash that included death threats.</description>  
+      <link>http://www.bbc.co.uk/news/world-us-canada-24053015#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-us-canada-24053015</guid>  
+      <pubDate>Wed, 11 Sep 2013 14:46:55 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69790000/jpg/_69790952_019252875-1.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69790000/jpg/_69790953_019252875-1.jpg"/> 
+    </item>  
+    <item> 
+      <title>Bulgarian man swims lake tied in bag</title>  
+      <description>A Bulgarian man has swum more than 2km (1.25 miles) tied up in a bag in a bid to set a Guinness World record, event organisers say.</description>  
+      <link>http://www.bbc.co.uk/news/world-europe-24047591#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-europe-24047591</guid>  
+      <pubDate>Wed, 11 Sep 2013 12:56:51 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69786000/jpg/_69786590_69783662.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69786000/jpg/_69786591_69783662.jpg"/> 
+    </item>  
+    <item> 
+      <title>Colorado ousts gun-control Democrats</title>  
+      <description>Colorado voters kick out two Democratic legislators including the state senate president in a recall election over their backing for gun controls.</description>  
+      <link>http://www.bbc.co.uk/news/world-us-canada-24055400#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-us-canada-24055400</guid>  
+      <pubDate>Wed, 11 Sep 2013 16:32:49 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69794000/jpg/_69794922_69794779.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69794000/jpg/_69794923_69794779.jpg"/> 
+    </item>  
+    <item> 
+      <title>De Blasio tops NY mayoral primary</title>  
+      <description>Bill de Blasio wins New York City's Democratic mayoral primary, while an unwelcome guest gatecrashes Anthony Weiner's concession speech.</description>  
+      <link>http://www.bbc.co.uk/news/world-us-canada-24035972#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-us-canada-24035972</guid>  
+      <pubDate>Wed, 11 Sep 2013 18:51:40 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69772000/jpg/_69772185_69771710.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69772000/jpg/_69772186_69771710.jpg"/> 
+    </item>  
+    <item> 
+      <title>Clashes in Chile as 1973 coup marked</title>  
+      <description>Dozens of people are arrested in the Chilean capital Santiago during protests marking the 40th anniversary of the 1973 military coup.</description>  
+      <link>http://www.bbc.co.uk/news/world-latin-america-24049850#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-latin-america-24049850</guid>  
+      <pubDate>Wed, 11 Sep 2013 14:36:19 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69787000/jpg/_69787791_protest.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69787000/jpg/_69787792_protest.jpg"/> 
+    </item>  
+    <item> 
+      <title>Greenwald to testify at spy probe</title>  
+      <description>A parliamentary commission in Brazil investigating spying allegations says the journalist Glenn Greenwald will be invited to testify next week.</description>  
+      <link>http://www.bbc.co.uk/news/world-latin-america-24043397#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-latin-america-24043397</guid>  
+      <pubDate>Wed, 11 Sep 2013 00:31:53 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69778000/jpg/_69778720_69778693.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69778000/jpg/_69778721_69778693.jpg"/> 
+    </item>  
+    <item> 
+      <title>Nigeria leader sacks ministers</title>  
+      <description>Nigeria's President Goodluck Jonathan sacks nine cabinet ministers amid serious divisions in the governing party.</description>  
+      <link>http://www.bbc.co.uk/news/world-africa-24053905#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-africa-24053905</guid>  
+      <pubDate>Wed, 11 Sep 2013 15:03:41 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69792000/jpg/_69792773_goodluckafp.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69792000/jpg/_69792774_goodluckafp.jpg"/> 
+    </item>  
+    <item> 
+      <title>Sinai suicide attacks kill soldiers</title>  
+      <description>A double suicide bomb attack on military locations in Egypt's Sinai region kills six soldiers and wounds at least 17 other people, officials say.</description>  
+      <link>http://www.bbc.co.uk/news/world-middle-east-24046153#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-middle-east-24046153</guid>  
+      <pubDate>Wed, 11 Sep 2013 12:34:46 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69786000/jpg/_69786915_tank_ap.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69786000/jpg/_69786916_tank_ap.jpg"/> 
+    </item>  
+    <item> 
+      <title>Delhi gang rapists 'deserve death'</title>  
+      <description>Four men found guilty of the fatal gang rape of a student in the Indian capital Delhi should face the death penalty, prosecutors say.</description>  
+      <link>http://www.bbc.co.uk/news/world-asia-india-24044091#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-asia-india-24044091</guid>  
+      <pubDate>Wed, 11 Sep 2013 11:12:20 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69779000/jpg/_69779264_69779257.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69779000/jpg/_69779265_69779257.jpg"/> 
+    </item>  
+    <item> 
+      <title>Residents flee Philippine stand-off</title>  
+      <description>Philippine troops continue to exchange gunfire with Muslim rebels in an ongoing stand-off in the country's south, as thousands of residents flee.</description>  
+      <link>http://www.bbc.co.uk/news/world-asia-24044332#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-asia-24044332</guid>  
+      <pubDate>Wed, 11 Sep 2013 11:29:54 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69779000/jpg/_69779553_69779320.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69779000/jpg/_69779554_69779320.jpg"/> 
+    </item>  
+    <item> 
+      <title>Russia 'hands Syria plans to US'</title>  
+      <description>Russia has handed over to the US its plans to make safe Syria's chemical weapons, sources say, after President Obama put military strikes on hold.</description>  
+      <link>http://www.bbc.co.uk/news/world-middle-east-24053918#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-middle-east-24053918</guid>  
+      <pubDate>Wed, 11 Sep 2013 19:50:02 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69793000/jpg/_69793197_uezu0kmp.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69793000/jpg/_69793198_uezu0kmp.jpg"/> 
+    </item>  
+    <item> 
+      <title>Catalans hold 'independence' link-up</title>  
+      <description>Supporters of Catalonia's independence from Spain have formed a 400km human chain across the region in support of their cause.</description>  
+      <link>http://www.bbc.co.uk/news/world-europe-24052713#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-europe-24052713</guid>  
+      <pubDate>Wed, 11 Sep 2013 21:22:59 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69791000/jpg/_69791359_69790490.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69791000/jpg/_69791360_69790490.jpg"/> 
+    </item>  
+    <item> 
+      <title>Israel pays ‘Prisoner X’ family $1m</title>  
+      <description>Israel is to pay $1.1m to the family of an alleged Mossad spy known as "Prisoner X" who killed himself in prison in 2010.</description>  
+      <link>http://www.bbc.co.uk/news/world-middle-east-24045686#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-middle-east-24045686</guid>  
+      <pubDate>Wed, 11 Sep 2013 12:57:52 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69786000/jpg/_69786662_66226493.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69786000/jpg/_69786663_66226493.jpg"/> 
+    </item>  
+    <item> 
+      <title>Iran bus collision kills at least 44</title>  
+      <description>At least 44 people die when two buses collide near the Iranian city of Qom, in an accident blamed on a tyre blowout.</description>  
+      <link>http://www.bbc.co.uk/news/world-middle-east-24033152#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-middle-east-24033152</guid>  
+      <pubDate>Tue, 10 Sep 2013 11:35:26 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69764000/jpg/_69764779_crash4.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69764000/jpg/_69764780_crash4.jpg"/> 
+    </item>  
+    <item> 
+      <title>Royal Mail flotation set to go ahead</title>  
+      <description>The process of selling off a majority stake in Royal Mail will begin on Thursday morning, the BBC's Newsnight programme has learned.</description>  
+      <link>http://www.bbc.co.uk/news/business-24058194#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/business-24058194</guid>  
+      <pubDate>Wed, 11 Sep 2013 22:30:06 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69799000/jpg/_69799291_postie.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69799000/jpg/_69799292_postie.jpg"/> 
+    </item>  
+    <item> 
+      <title>HS2 to boost UK by '£15bn a year'</title>  
+      <description>As a new report claims the HS2 rail line will benefit the economy by £15bn a year, the government continues to outline the case for the project.</description>  
+      <link>http://www.bbc.co.uk/news/business-24040674#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/business-24040674</guid>  
+      <pubDate>Wed, 11 Sep 2013 10:53:41 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69781000/jpg/_69781455_hi013671676.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69781000/jpg/_69781456_hi013671676.jpg"/> 
+    </item>  
+    <item> 
+      <title>Tina Brown to leave The Daily Beast</title>  
+      <description>Tina Brown, the ex-editor of Vanity Fair, the New Yorker and Talk magazines, is leaving The Daily Beast, the online news site she founded in 2008.</description>  
+      <link>http://www.bbc.co.uk/news/business-24057374#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/business-24057374</guid>  
+      <pubDate>Wed, 11 Sep 2013 21:56:59 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69798000/jpg/_69798276_125962106.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69798000/jpg/_69798277_125962106.jpg"/> 
+    </item>  
+    <item> 
+      <title>Facebook shares at all-time high</title>  
+      <description>Shares in the social networking giant Facebook surpass their May 2012 high of $45, buoyed by strong mobile ad sales.</description>  
+      <link>http://www.bbc.co.uk/news/business-24057369#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/business-24057369</guid>  
+      <pubDate>Wed, 11 Sep 2013 18:52:52 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69797000/jpg/_69797408_165539438.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69797000/jpg/_69797460_165539438.jpg"/> 
+    </item>  
+    <item> 
+      <title>Google faces wi-fi snooping action</title>  
+      <description>A US judge has ruled that Google does have a case to answer over its collection of personal wi-fi data.</description>  
+      <link>http://www.bbc.co.uk/news/technology-24047235#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/technology-24047235</guid>  
+      <pubDate>Wed, 11 Sep 2013 12:00:08 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69784000/jpg/_69784284_83098991.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69784000/jpg/_69784285_83098991.jpg"/> 
+    </item>  
+    <item> 
+      <title>Trapattoni departs as Republic boss</title>  
+      <description>Giovanni Trapattoni's five-year tenure as Republic of Ireland boss ends after the World Cup qualifier defeat in Austria.</description>  
+      <link>http://www.bbc.co.uk/sport/0/football/24043331</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/football/24043331</guid>  
+      <pubDate>Wed, 11 Sep 2013 10:48:58 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69778000/jpg/_69778315_trapattonituesday.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69780000/jpg/_69780100_trapattonituesday.jpg"/> 
+    </item>  
+    <item> 
+      <title>Ferrari confirm Raikkonen for 2014</title>  
+      <description>Ferrari confirm Lotus driver Kimi Raikkonen will partner Fernando Alonso at the Italian team from next season.</description>  
+      <link>http://www.bbc.co.uk/sport/0/formula1/24051470</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/formula1/24051470</guid>  
+      <pubDate>Wed, 11 Sep 2013 15:41:29 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69785000/jpg/_69785736_69785735.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69785000/jpg/_69785734_69785733.jpg"/> 
+    </item>  
+    <item> 
+      <title>Heineken Cup can still be saved - ERC</title>  
+      <description>Heineken Cup chiefs say all parties are committed to creating a new deal on the future of the European competitions.</description>  
+      <link>http://www.bbc.co.uk/sport/0/rugby-union/24056248</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/sport/0/rugby-union/24056248</guid>  
+      <pubDate>Wed, 11 Sep 2013 19:01:28 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69795000/jpg/_69795310_toulon3_wilkinson.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69795000/jpg/_69795308_toulon3_wilkinson.jpg"/> 
+    </item>  
+    <item> 
+      <title>Bowie, Bugg and Mvula in Mercury race</title>  
+      <description>Rock legend David Bowie joins newcomers Laura Mvula and Jake Bugg on the shortlist for the 2013 Barclaycard Mercury Prize.</description>  
+      <link>http://www.bbc.co.uk/news/entertainment-arts-24050986#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/entertainment-arts-24050986</guid>  
+      <pubDate>Wed, 11 Sep 2013 20:30:14 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69795000/gif/_69795604_bowie-mvula.gif"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69795000/gif/_69795605_bowie-mvula.gif"/> 
+    </item>  
+    <item> 
+      <title>Kylie Minogue to join The Voice</title>  
+      <description>Kylie Minogue will replace Jessie J as a coach on The Voice, joining will.i.am and Tom Jones for the third series.</description>  
+      <link>http://www.bbc.co.uk/news/entertainment-arts-24048141#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/entertainment-arts-24048141</guid>  
+      <pubDate>Wed, 11 Sep 2013 10:11:02 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69783000/jpg/_69783653_69783492.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69783000/jpg/_69783654_69783492.jpg"/> 
+    </item>  
+    <item> 
+      <title>Pirates sequel delayed beyond 2015</title>  
+      <description>The next Pirates of the Caribbean film has been delayed beyond its planned 2015 release.</description>  
+      <link>http://www.bbc.co.uk/news/entertainment-arts-24046991#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/entertainment-arts-24046991</guid>  
+      <pubDate>Wed, 11 Sep 2013 11:22:43 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69783000/jpg/_69783951_pirates1.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69783000/jpg/_69783952_pirates1.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: In line with Catalans' human chain</title>  
+      <description>Thousands of supporters of Catalonia's independence from Spain have formed a 400km (250 mile) human chain which stretches across the north-eastern province.</description>  
+      <link>http://www.bbc.co.uk/news/world-europe-24057082#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-europe-24057082</guid>  
+      <pubDate>Wed, 11 Sep 2013 20:41:11 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69798000/jpg/_69798259_69796711.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69798000/jpg/_69798260_69796711.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Rescue effort after Mexico mudslide</title>  
+      <description>Mudslides caused by heavy rains have caused chaos in parts of Mexico.</description>  
+      <link>http://www.bbc.co.uk/news/world-latin-america-24054928#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-latin-america-24054928</guid>  
+      <pubDate>Wed, 11 Sep 2013 15:37:03 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69793000/jpg/_69793140_mexicomudslide.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69793000/jpg/_69793141_mexicomudslide.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Brutal reality of China's urbanisation</title>  
+      <description>China's government planning to move 100m people from rural areas to cities in the next 10 years, but many Chinese feel abandoned or intimidated by the change.</description>  
+      <link>http://www.bbc.co.uk/news/world-asia-24057915#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-asia-24057915</guid>  
+      <pubDate>Wed, 11 Sep 2013 22:10:25 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69799000/jpg/_69799404_69799131.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69799000/jpg/_69799405_69799131.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: German students fence for honour</title>  
+      <description>German law student Nils Hempel is a member of one of the country's student fencing corps, which aim to build character under the blade of a sword.</description>  
+      <link>http://www.bbc.co.uk/news/world-europe-24039381#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-europe-24039381</guid>  
+      <pubDate>Tue, 10 Sep 2013 22:04:27 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69784000/jpg/_69784203_69784199.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69784000/jpg/_69784204_69784199.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Inside Syrian town where battle rages</title>  
+      <description>The battle for the Syrian Christian town of Maaloula is continuing, with heavy gunfire, says the BBC's Jeremy Bowen.</description>  
+      <link>http://www.bbc.co.uk/news/world-middle-east-24057202#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-middle-east-24057202</guid>  
+      <pubDate>Wed, 11 Sep 2013 21:27:36 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69799000/jpg/_69799113_69797298.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69799000/jpg/_69799125_69797298.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Chile marks coup 40th anniversary</title>  
+      <description>The 40th anniversary of General Augusto Pinochet's coup is remembered by Chileans with differing views on its effect on the country</description>  
+      <link>http://www.bbc.co.uk/news/world-latin-america-24048088#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-latin-america-24048088</guid>  
+      <pubDate>Wed, 11 Sep 2013 15:19:15 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69786000/jpg/_69786168_69786159.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69786000/jpg/_69786369_69786159.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Soyuz capsule touches down</title>  
+      <description>Two Russian cosmonauts and a US astronaut have landed back on earth after a 166-day mission to the International Space Station.</description>  
+      <link>http://www.bbc.co.uk/news/world-24044662#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-24044662</guid>  
+      <pubDate>Wed, 11 Sep 2013 07:11:03 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69779000/jpg/_69779701_69779647.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69779000/jpg/_69779702_69779647.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Obama postpones vote on Syria strike</title>  
+      <description>President Obama has asked Congress to postpone a vote authorising the use of force to give diplomacy a chance.</description>  
+      <link>http://www.bbc.co.uk/news/world-24051698#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-24051698</guid>  
+      <pubDate>Wed, 11 Sep 2013 20:57:11 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69788000/jpg/_69788578_69788569.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69788000/jpg/_69788650_69788569.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: One-minute World News</title>  
+      <description>Watch the latest news summary from BBC World News. International news updated 24 hours a day.</description>  
+      <link>http://www.bbc.co.uk/news/10462520#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/10462520</guid>  
+      <pubDate>Wed, 11 Sep 2013 21:10:08 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/48037000/jpg/_48037472_worldnews66.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/55182000/gif/_55182136__48351578_640x360-world-news-1.gif"/> 
+    </item>  
+    <item> 
+      <title>Why gunmen have turned off Libya's oil taps</title>  
+      <description>Why gunmen have turned off the taps on Libya's oil sector</description>  
+      <link>http://www.bbc.co.uk/news/world-africa-24051371#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-africa-24051371</guid>  
+      <pubDate>Wed, 11 Sep 2013 15:00:41 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69793000/jpg/_69793606_69789811.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69793000/jpg/_69793607_69789811.jpg"/> 
+    </item>  
+    <item> 
+      <title>In pictures: Kenya's huge water find in Turkana</title>  
+      <description>The Kenyan water reserve which could save drought-prone region</description>  
+      <link>http://www.bbc.co.uk/news/world-africa-24051374#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-africa-24051374</guid>  
+      <pubDate>Wed, 11 Sep 2013 18:46:48 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69797000/jpg/_69797043_69794904.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69797000/jpg/_69797044_69794904.jpg"/> 
+    </item>  
+    <item> 
+      <title>Gordon Brown's Syrian refugee school plan</title>  
+      <description>Gordon Brown's school plan for refugees</description>  
+      <link>http://www.bbc.co.uk/news/business-24034422#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/business-24034422</guid>  
+      <pubDate>Wed, 11 Sep 2013 09:10:26 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69771000/jpg/_69771348_019142984-1.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69771000/jpg/_69771349_019142984-1.jpg"/> 
+    </item>  
+    <item> 
+      <title>My Germany: Student fencer</title>  
+      <description>German students fence for honour and entry into the elite</description>  
+      <link>http://www.bbc.co.uk/news/world-europe-23975881#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-europe-23975881</guid>  
+      <pubDate>Wed, 11 Sep 2013 08:02:48 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69776000/gif/_69776702_duellists-273.gif"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69776000/gif/_69776703_duellists-273.gif"/> 
+    </item>  
+    <item> 
+      <title>Europe 'on hold' over German election</title>  
+      <description>Europe 'on hold' over German election, says Gavin Hewitt.</description>  
+      <link>http://www.bbc.co.uk/news/world-europe-24047589#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-europe-24047589</guid>  
+      <pubDate>Wed, 11 Sep 2013 10:21:15 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69783000/gif/_69783062_hew.gif"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69783000/gif/_69783063_hew.gif"/> 
+    </item>  
+    <item> 
+      <title>In pictures: The military coup in Chile</title>  
+      <description>Photographs of the 1973 coup which ousted Salvador Allende</description>  
+      <link>http://www.bbc.co.uk/news/in-pictures-23992842#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/in-pictures-23992842</guid>  
+      <pubDate>Wed, 11 Sep 2013 06:14:15 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69728000/jpg/_69728308_2663507.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69728000/jpg/_69728309_2663507.jpg"/> 
+    </item>  
+    <item> 
+      <title>The search for Jinnah's vision of Pakistan</title>  
+      <description>The missing speech of Pakistan's founding father</description>  
+      <link>http://www.bbc.co.uk/news/world-asia-24034873#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-asia-24034873</guid>  
+      <pubDate>Wed, 11 Sep 2013 10:54:46 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69767000/jpg/_69767310_pak_jinnah_afp.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69767000/jpg/_69767311_pak_jinnah_afp.jpg"/> 
+    </item>  
+    <item> 
+      <title>Viewpoints: Has Delhi rape case changed India?</title>  
+      <description>Has the case changed attitudes in India?</description>  
+      <link>http://www.bbc.co.uk/news/world-asia-india-24012424#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-asia-india-24012424</guid>  
+      <pubDate>Tue, 10 Sep 2013 13:35:13 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/69724000/jpg/_69724307_65458913.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/69724000/jpg/_69724308_65458913.jpg"/> 
+    </item> 
+  </channel> 
+</rss>
