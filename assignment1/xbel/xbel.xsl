@@ -1,12 +1,24 @@
 <?xml version="1.0"?>
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="html" encoding="utf-8" omit-xml-declaration="yes" indent="yes"/>
+	
+	<xsl:param name="description">true</xsl:param>
+	
 	<xsl:template match="/">
 		<html>
 			<head>
 				<title>
 					<xsl:value-of select="xbel/title"/>
 				</title>
+				<style type="text/css">
+					p.desc {
+						margin: .1em .5em .1em .5em;
+						font-size: .9em;
+					}
+					body {
+						font-family: Arial, Sans-Serif;
+					}
+				</style>
 			</head>
 			<body>
 				<h1>
@@ -36,6 +48,11 @@
 				</xsl:attribute>
 				<xsl:value-of select="title"/>
 			</xsl:element>
+			<xsl:if test="$description = 'true'">
+				<p class="desc">
+					<xsl:value-of select="desc"/>
+				</p>
+			</xsl:if>
 		</li>
 	</xsl:template>
 	<xsl:template match="text()">
