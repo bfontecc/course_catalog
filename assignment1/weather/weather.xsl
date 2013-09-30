@@ -120,7 +120,7 @@
 		<p id="source">
 			<xsl:element name="a">
 				<xsl:attribute name="href">
-					<xsl:value-of select="credit_url"/>
+					<xsl:value-of select="credit_URL"/>
 				</xsl:attribute>
 				<xsl:value-of select="credit"/>
 			</xsl:element>
