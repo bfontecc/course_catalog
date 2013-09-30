@@ -1,0 +1,79 @@
+<xbel version="1.0">
+	<title>Bookmarks from Bret</title>
+	<bookmark href="http://www.arstechnica.com/">
+		<title>Ars Technica</title>
+		<desc>A good blog site, with a lot of techie articles.</desc>
+	</bookmark>
+	<bookmark href="http://www.extremetech.com/">
+		<title>Extreme Tech</title>
+		<desc>Another good one. Extreme tech is nice because they are not afraid to go in depth, but the articles are still pretty generally accessible.</desc>
+	</bookmark>
+	<folder>
+		<title>Wish List</title>
+		<bookmark href="http://www.elitekeyboards.com/products.php?sub=leopold,tenkeyless">
+			<title>Mechanical Keyboard</title>
+			<desc>Clicky keys, like the Madmen days. Tactile feedback, and compact layout. Cherry MX red are pretty standard mech switches. The others are too loud/forceful or a little weak.</desc>
+		</bookmark>
+		<bookmark href="http://www.makershed.com/Make_Bomb_Defuser_Leatherman_ES4_p/mkltm2.htm">
+        	<title>Leatherman Bomb Defuser</title>
+        	<desc>The Leatherman Bomb Defuser is a snarkily named pocket sized multi-tool useful for electronics and hobby tinkering / hacking.</desc>
+		</bookmark>
+		<bookmark href="http://www.newegg.com/Product/Product.aspx?Item=9SIA0AT0ZH3411">
+			<title>500GB Samsung SSD</title>
+			<desc>An SSD can make a computer much quicker by reducing the performance bottlenecks caused by data I/O. This is especially apparent with reboots, backups, app loads/splashscreens, and downloads. The HDD is normally the only non-trivial moving part in a laptop so replacing it with a silent and solid drive makes the whole laptop more stable.</desc>
+		</bookmark>
+		<bookmark href="http://www.amazon.com/Audio-Technica-ATH-PRO700MK2-Professional-Monitor-Headphones/dp/B004KCLIFA/ref=sr_1_1?ie=UTF8&amp;qid=1370819917&amp;sr=8-1&amp;keywords=ATH-PRO700MK2">
+			<title>Audio-Technica ATH Pro 700 Headphones</title>
+			<desc>Audio-Technica are generally a leader in headphones, and these have boosted lows. Perfect for Dubstep, Trap and Bass, and other electronic music.</desc>
+		</bookmark>
+		<bookmark href="http://gifts.worldwildlife.org/gift-center/gifts/Species-Adoptions/Emperor-Penguin.aspx">
+			<title>Adopt a Penguin</title>
+			<desc>Because stealing a penguin is a felony.</desc>
+		</bookmark>
+	</folder>
+	<folder>
+		<title>Projects</title>
+		<folder>
+			<title>Tube Amplifier</title>
+			<bookmark href="http://www.diyaudioprojects.com/Solid/12AU7-IRF510-LM317-Headamp/">
+				<title>Project Page</title>
+				<desc>A headphone amplifier using a 12AU7 vacuum tube. Uses low voltage, which makes it safe as a hobby project. The description is beginner friendly, kind of in the happy medium between "circuit stuffing" and purely theoretical.</desc>
+			</bookmark>
+			<bookmark href="http://www.youdoitelectronics.com/">
+				<title>You-do-It Electronics</title>
+				<desc>An Electronics store in Needham which carries most of the parts needed.</desc>
+			</bookmark>
+			<bookmark href="http://www.radioshack.com/product/index.jsp?productId=2062618">
+				<title>Radio Shack - Mosfets</title>
+				<desc>You-do-It does not carry these particular Mosfets.</desc>
+			</bookmark>
+			<bookmark href="http://diyaudioprojects.com/Forum/viewtopic.php?f=10&amp;t=1799">
+				<title>Forums</title>
+				<desc>This is a forum for discussing people's implementations of this project. Common pitfalls and creative twists abound.</desc>
+			</bookmark>
+		</folder>
+		<folder>
+			<title>Homemade Tonic</title>
+			<bookmark href="http://lusaorganics.typepad.com/clean/2011/07/homemade-tonic-water-recipe-and-yes-some-snazzy-glass-straws.html">
+				<title>Recipe</title>
+				<desc>A recipe for homemade tonic water.</desc>
+			</bookmark>
+			<bookmark href="http://www.amazon.com/Cinchona-Bark-8oz-tea-Smallflower/dp/B003YJCNNQ/ref=sr_1_2?s=hpc&amp;ie=UTF8&amp;qid=1370207589&amp;sr=1-2&amp;keywords=cinchona+bark">
+				<title>Cinchona Bark - Amazon</title>
+				<desc>A natural source of quinine.</desc>
+			</bookmark>
+			<bookmark href="http://www.amazon.com/Citric-Acid-100%25-Pure-oz/dp/B0014UCJ8Q/ref=sr_1_2?s=hpc&amp;ie=UTF8&amp;qid=1370207883&amp;sr=1-2&amp;keywords=citric+acid">
+				<title>Citric Acid - Amazon</title>
+				<desc>Lowers the PH, adds flavor. Crucial to the recipe.</desc>
+			</bookmark>
+			<bookmark href="http://www.amazon.com/Primula-Classic-Glass-Coffee-Handle/dp/B000N2TYOS/ref=sr_1_6?ie=UTF8&amp;qid=1380551910&amp;sr=8-6&amp;keywords=french+press">
+				<title>French Press - Amazon</title>
+				<desc>Faster than letting it drip through a filter.</desc>
+			</bookmark>
+			<bookmark href="http://www.brooklyngin.com/">
+				<title>Brooklyn Gin</title>
+				<desc>Something to go with it.</desc>
+			</bookmark>
+		</folder>
+	</folder>
+</xbel>
