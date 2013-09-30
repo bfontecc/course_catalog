@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<xsl:output method="html" encoding="utf-8" omit-xml-declaration="yes" indent="yes"/>
 	<xsl:template match="/">
 		<html>
 			<head>
@@ -20,11 +21,11 @@
 	<xsl:template match="folder">
 		<li>
 			<xsl:value-of select="title"/>
-			<!-- if anything in the folder -->
-			<ul>
-				<xsl:apply-templates/>
-			</ul>
-			<!-- endif -->
+			<xsl:if test="exists(folder) or exists(bookmark)">
+				<ul>
+					<xsl:apply-templates/>
+				</ul>
+			</xsl:if>
 		</li>
 	</xsl:template>
 	<xsl:template match="bookmark">
