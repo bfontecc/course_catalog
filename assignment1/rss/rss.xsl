@@ -29,7 +29,7 @@
               </div>
               <xsl:apply-templates />
               <hr style="clear: both;"/>
-              <p >
+              <p>
                 <xsl:call-template name="validxhtml" />
                 <xsl:call-template name="validcss" />
               </p>

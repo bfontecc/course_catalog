@@ -51,6 +51,9 @@
 				<xsl:attribute name="src">
 					<xsl:value-of select="concat(icon_url_base, icon_url_name)"/>
 				</xsl:attribute>
+				<xsl:attribute name="alt">
+					<xsl:value-of select="icon_url_name"/>
+				</xsl:attribute>
 			</img>
 			</td>
 			<td>
