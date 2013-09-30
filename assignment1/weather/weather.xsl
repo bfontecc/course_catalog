@@ -1,40 +1,45 @@
 <?xml version="1.0"?>
-<xsl:stylesheet version="2.0" xmlns:xsl="">
+<xsl:stylesheet version="2.0"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	
   	<xsl:output method="html" encoding="utf-8" omit-xml-declaration="yes" indent="yes"/>
+  	
 	<xsl:template match="/">
-	<html>
-	<head>
-		<title><xsl:value-of select="/current_observation/location"/></title>
-		<style type="text/css">
-			body {
-				font-family: Arial, Sans-Serif;
-			}
-			td.var_name {
-				text-align: right;
-				padding-right: .5em;
-				font-weight: bold;
-			}
-			p#history, p#source {
-				padding-left: .5em;
-			}
-			p#update {
-				font-size: .8em;
-			}
-			table#basic_info {
-				margin-left: 4em;
-			}
-			#weather {
-				text-align: center;
-			}
-			#temp {
-				font-size: 2em;
-				margin: 0;
-				padding: 0 .5em 0 .5em;
-			}
-		</style>
-	</head>
-	<body>
-		<xsl:apply-templates />
+	<html xml:lang="en" lang="en">
+		<head>
+			<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+			<title><xsl:value-of select="/current_observation/location"/></title>
+			<style type="text/css">
+				body {
+					font-family: Arial, Sans-Serif;
+				}
+				td.var_name {
+					text-align: right;
+					padding-right: .5em;
+					font-weight: bold;
+				}
+				p#history, p#source {
+					padding-left: .5em;
+				}
+				p#update {
+					font-size: .8em;
+				}
+				table#basic_info {
+					margin-left: 4em;
+				}
+				#weather {
+					text-align: center;
+				}
+				#temp {
+					font-size: 2em;
+					margin: 0;
+					padding: 0 .5em 0 .5em;
+				}
+			</style>
+		</head>
+		<body>
+			<xsl:apply-templates />
 		</body>
 	</html>
 	</xsl:template>
