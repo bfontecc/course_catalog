@@ -1,30 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map:sitemap xmlns:map="http://apache.org/cocoon/sitemap/1.0">
 
-  <map:flow language="javascript"/>
+	<map:flow language="javascript"/>
 
-  <map:pipelines>
-    <map:pipeline>
-      <!-- put in map:match elements here -->
+	<map:pipelines>
+		<map:pipeline>
+			<!-- put in map:match elements here -->
 
-      <!-- We have given you one to start out with.
-	   This is for courses/CAT_NUM.html URLs, 
-	   where CAT_NUM is the catalog number.
-           Note that the parameter cat_num is passsed to course_detail.xsl,
-	   and the value of the this parameter is whatever matches in the URL.
-	   You can try http://host:port/cocoon/assignment2/courses/5085.html
-      -->
-      <map:match pattern="courses/*.html">
-	<map:generate src="data/courses.xml" />
-	<map:transform src="xsl/course_detail.xsl" type="xslt2">
-	  <map:parameter name="cat_num" value="{1}" />
-	</map:transform>
-	<map:serialize type="xhtml" />
-      </map:match>
+			  <!-- We have given you one to start out with.
+			  This is for courses/CAT_NUM.html URLs, 
+			  where CAT_NUM is the catalog number.
+			  Note that the parameter cat_num is passsed to course_detail.xsl,
+			  and the value of the this parameter is whatever matches in the URL.
+			  You can try http://host:port/cocoon/assignment2/courses/5085.html
+			  -->
+			<map:match pattern="">
+				<map:redirect-to uri="index.html" />
+			</map:match>
+			<map:match pattern="index.html">
+				<map:generate src="data/courses.xml" />
+				<map:transform src="xsl/department_listing.xsl" type="xslt2" />
+				<map:serialize type="xhtml" />
+			</map:match>
+			<map:match pattern="courses/*.html">
+				<map:generate src="data/courses.xml" />
+				<map:transform src="xsl/course_detail.xsl" type="xslt2">
+					<map:parameter name="cat_num" value="{1}" />
+				</map:transform>
+				<map:serialize type="xhtml" />
+			</map:match>
 
-      <!-- you will need to the remaining map:match patterns yourself -->
+			<!-- you will need to the remaining map:match patterns yourself -->
 
-    </map:pipeline>
+		</map:pipeline>
 
     <!-- these are generic match patterns that invoke
          readers, so that cocoon can serve 'static' files 
