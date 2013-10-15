@@ -5,23 +5,17 @@
 
 	<map:pipelines>
 		<map:pipeline>
-			<!-- put in map:match elements here -->
-
-			  <!-- We have given you one to start out with.
-			  This is for courses/CAT_NUM.html URLs, 
-			  where CAT_NUM is the catalog number.
-			  Note that the parameter cat_num is passsed to course_detail.xsl,
-			  and the value of the this parameter is whatever matches in the URL.
-			  You can try http://host:port/cocoon/assignment2/courses/5085.html
-			  -->
+			<!-- redirect from / to index -->
 			<map:match pattern="">
 				<map:redirect-to uri="index.html" />
 			</map:match>
+			<!-- department listing -->
 			<map:match pattern="index.html">
 				<map:generate src="data/courses.xml" />
 				<map:transform src="xsl/department_listing.xsl" type="xslt2" />
 				<map:serialize type="xhtml" />
 			</map:match>
+			<!-- course detail --> 
 			<map:match pattern="courses/*.html">
 				<map:generate src="data/courses.xml" />
 				<map:transform src="xsl/course_detail.xsl" type="xslt2">
@@ -29,9 +23,6 @@
 				</map:transform>
 				<map:serialize type="xhtml" />
 			</map:match>
-
-			<!-- you will need to the remaining map:match patterns yourself -->
-
 		</map:pipeline>
 
     <!-- these are generic match patterns that invoke
