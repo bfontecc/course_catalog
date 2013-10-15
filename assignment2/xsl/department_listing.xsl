@@ -5,8 +5,9 @@
 
         <xsl:output method="html" encoding="utf-8" omit-xml-declaration="yes" indent="yes" />
 
-		<!-- we are currently in the xsl folder, with common.xsl -->
+		<!-- we are currently in the xsl folder, with common.xsl
 		<xsl:import href="common.xsl" />
+		-->
 
 		<xsl:template match="/">
 			<xsl:text>Hello from department_listing.xsl</xsl:text>
