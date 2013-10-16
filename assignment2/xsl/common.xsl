@@ -7,8 +7,8 @@
 -->
 
 <xsl:template name="header">
-	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 	<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 		<title> 
 		<!-- static for now. Can use parameters though. -->
 		Harvard University FAS Course Catalog
@@ -31,7 +31,7 @@
 
 <xsl:template name="css">
 	<style type="text/css">
-		<!-- CSS Rules -->
+		body { }
 	</style>
 </xsl:template>
 
