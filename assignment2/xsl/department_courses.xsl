@@ -22,13 +22,40 @@
 	<xsl:template match="courses">
 		<xsl:for-each-group select="course[department/@code=$dept_code]" group-by="course_group/@code">
 			<div class="course_group" id="{current-grouping-key()}">
-				<h2>
-					<xsl:value-of select="./course_group[@code=current-grouping-key()]" />
-				</h2>
+				<table id="course_name">
+					<caption>
+						<h2>
+							<xsl:value-of select="./course_group[@code=current-grouping-key()]" />
+						</h2>
+					</caption>
+					<thead>
+						<tr>
+							<th>Number</th>
+							<th>Term</th>
+							<th>Title</th>
+						</tr>
+					</thead>
+					<tbody>
+						<xsl:for-each select="current-group()">
+							<xsl:sort select="course_number/num_int" />
+							<xsl:sort select="course_number/num_char" />
+							<tr>
+								<td class="course_number">
+									<xsl:value-of select="./course_group[@code=current-grouping-key()]" />
+									<xsl:value-of select="./course_number/num_int" />
+									<xsl:value-of select="./course_number/num_char" />
+								</td>
+								<td class="term">
+									<xsl:value-of select="./term" />
+								</td>
+								<td class="course_title">
+									<xsl:value-of select="./title" />
+								</td>
+							</tr>
+						</xsl:for-each>
+					</tbody>
+				</table>
 			</div>
-			
-			<!-- create the table -->
-				<!-- call template with param -->
 		</xsl:for-each-group>
 	</xsl:template>
 
