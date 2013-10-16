@@ -15,6 +15,14 @@
 				<map:transform src="xsl/department_listing.xsl" type="xslt2" />
 				<map:serialize type="xhtml" />
 			</map:match>
+			<!-- department courses -->
+			<map:match pattern="departments/*.html">
+				<map:generate src="data/courses.xml" />
+				<map:transform src="xsl/department_courses.xsl" type="xslt2">
+					<map:parameter name="dept_code" value="{1}" />
+				</map:transform>
+				<map:serialize type="xhtml" />
+			</map:match>
 			<!-- course detail --> 
 			<map:match pattern="courses/*.html">
 				<map:generate src="data/courses.xml" />
