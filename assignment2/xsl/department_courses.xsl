@@ -19,6 +19,19 @@
 		</html>
 	</xsl:template>
 
+	<xsl:template match="courses">
+		<xsl:for-each-group select="course[department/@code=$dept_code]" group-by="course_group/@code">
+			<div class="course_group" id="{current-grouping-key()}">
+				<h2>
+					<xsl:value-of select="./course_group[@code=current-grouping-key()]" />
+				</h2>
+			</div>
+			
+			<!-- create the table -->
+				<!-- call template with param -->
+		</xsl:for-each-group>
+	</xsl:template>
+
 	<xsl:template name="nav">
 		<div id="nav">
 			<a href="../index.html">Departments</a>
