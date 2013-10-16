@@ -18,6 +18,11 @@
 	</head>
 </xsl:template>
 
+<xsl:template name="title_content">
+	<img src="images/harvard_shield.png" />
+	<h1>Harvard University Faculty of Arts and Sciences Course Catalog</h1>
+</xsl:template>
+
 <xsl:template name="footer">
 	<div id="footer">
 		<hr />
@@ -30,9 +35,9 @@
 </xsl:template>
 
 <xsl:template name="css">
-	<style type="text/css">
-		body { }
-	</style>
+	<style src="css/site.css" type="text/css">
+		<xsl:comment></xsl:comment>
+	</style> 
 </xsl:template>
 
 <xsl:template name="js">
