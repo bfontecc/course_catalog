@@ -4,13 +4,17 @@
         xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 		<xsl:import href="common.xsl" />
+
 <!-- hello from exp -->
         <xsl:output method="html" encoding="utf-8" omit-xml-declaration="yes" indent="yes" />
 
 		<xsl:template match="/">
-			<xsl:call-template name="header" />
-			<xsl:text>Hello from department_listing.xsl</xsl:text>
-			<xsl:call-template name="footer" />
+			<html lang="en">
+				<xsl:call-template name="header" />
+				<body>
+					<xsl:call-template name="footer" />
+				</body>
+			</html>
 		</xsl:template>
 
 </xsl:stylesheet>
