@@ -3,8 +3,6 @@
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns="http://www.w3.org/1999/xhtml">
 
-<xsl:output method="html" encoding="utf-8" omit-xml-declaration="yes" indent="yes" />
-
 <xsl:param name="query_string" select=" 'departments' ">
 
 <!-- Use these templates by importing common.xsl and using call-templates on header and footer
@@ -26,11 +24,11 @@
 
 <xsl:template name="footer">
 			<div id="footer">
-				<hr>
+				<hr />
 				<ul>
 					<li>Web Development with XML</li>
 					<li>Bret Fontecchio</li>
-					<li>Fall 2013<li>
+					<li>Fall 2013</li>
 				</ul>
 			</div>
 		</body>
