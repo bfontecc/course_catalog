@@ -55,6 +55,7 @@
 						</xsl:for-each>
 					</tbody>
 				</table>
+				
 			</div>
 		</xsl:for-each-group>
 	</xsl:template>
