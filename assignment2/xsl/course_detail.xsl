@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns="http://www.w3.org/1999/xhtml"
                 version="2.0">
-
+  <xsl:import href="common.xsl" />
   <xsl:param name="cat_num" />
   <xsl:template match="/">
+    
     <html>
       <body>
-        <h2>Catalog Number <xsl:value-of select="$cat_num"/></h2>
+        <xsl:call-template name="title_content" />
         <xsl:apply-templates select="/courses/course[@cat_num eq $cat_num]" />
       </body>
     </html>
@@ -14,7 +16,25 @@
   
   <xsl:template match="*">
     <xsl:call-template name="nav" />
-    
+    <h2>
+      <xsl:value-of select="title" />
+    </h2>
+    <h3>
+      <xsl:value-of select="course_group" />
+      <xsl:text> </xsl:text>
+      <xsl:value-of select="course_number/num_int" />
+      <xsl:value-of select="course_number/num_char" />
+      <xsl:text>. </xsl:text>
+      <xsl:value-of select="title" />
+    </h3>
+    <p id="cat_num">
+      <xsl:text>Catalog Number: </xsl:text>
+      <xsl:value-of select="@cat_num" />
+    </p>
+    <p id="faculty_text">
+      <xsl:value-of select="faculty_text" />
+    </p>
+
   </xsl:template>
   
   <xsl:template name="nav">

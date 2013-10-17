@@ -1,8 +1,7 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="2.0"
         xmlns="http://www.w3.org/1999/xhtml"
         xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-
 	<xsl:import href="common.xsl" />
 	<xsl:param name="dept_code" />
 	<xsl:output method="html" encoding="utf-8" omit-xml-declaration="yes" indent="yes" />

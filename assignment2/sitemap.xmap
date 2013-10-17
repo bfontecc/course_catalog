@@ -4,6 +4,11 @@
 	<map:flow language="javascript"/>
 
 	<map:pipelines>
+		<map:component-configurations>
+  <global-variables>
+      <base_url>/cocoon/assignment2</base_url>
+  </global-variables>
+</map:component-configurations>
 		<map:pipeline>
 			<!-- redirect from / to index -->
 			<map:match pattern="">
@@ -12,13 +17,16 @@
 			<!-- department listing -->
 			<map:match pattern="index.html">
 				<map:generate src="data/courses.xml" />
-				<map:transform src="xsl/department_listing.xsl" type="xslt2" />
+				<map:transform src="xsl/department_listing.xsl" type="xslt2">
+					<map:parameter name="base_url" value="{global:base_url}" />
+				</map:transform>
 				<map:serialize type="xhtml" />
 			</map:match>
 			<!-- department courses -->
 			<map:match pattern="departments/*.html">
 				<map:generate src="data/courses.xml" />
 				<map:transform src="xsl/department_courses.xsl" type="xslt2">
+					<map:parameter name="base_url" value="{global:base_url}" />
 					<map:parameter name="dept_code" value="{1}" />
 				</map:transform>
 				<map:serialize type="xhtml" />
@@ -27,6 +35,7 @@
 			<map:match pattern="courses/*.html">
 				<map:generate src="data/courses.xml" />
 				<map:transform src="xsl/course_detail.xsl" type="xslt2">
+					<map:parameter name="base_url" value="{global:base_url}" />
 					<map:parameter name="cat_num" value="{1}" />
 				</map:transform>
 				<map:serialize type="xhtml" />
