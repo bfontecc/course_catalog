@@ -27,14 +27,32 @@
       <xsl:text>. </xsl:text>
       <xsl:value-of select="title" />
     </h3>
-    <p id="cat_num">
+    <p class="cat_num">
       <xsl:text>Catalog Number: </xsl:text>
       <xsl:value-of select="@cat_num" />
     </p>
-    <p id="faculty_text">
+    <p class="faculty_text">
       <xsl:value-of select="faculty_text" />
     </p>
-
+    <p class="meeting">
+      <xsl:value-of select="credit" />
+      <xsl:text> (</xsl:text>
+      <xsl:value-of select="term" />
+      <xsl:text>) </xsl:text>
+      <xsl:value-of select="meeting_text" />
+    </p>
+    <p class="level">
+      <xsl:value-of select="course_level" />
+      <xsl:text> / </xsl:text>
+      <xsl:value-of select="course_type" />
+    </p>
+    <p class="desc">
+      <xsl:value-of select="description" />
+    </p>
+    <p class="notes">
+      <xsl:value-of select="notes" />
+    </p>
+    
   </xsl:template>
   
   <xsl:template name="nav">
