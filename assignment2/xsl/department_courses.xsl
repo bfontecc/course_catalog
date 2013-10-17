@@ -107,7 +107,7 @@
 	<xsl:template name="nav">
 		<div id="nav">
 			<a href="../index.html">Departments</a>
-			<img src="../images/arrow.gif" alt="arrow" id="nav_arrow" />
+			<img src="../images/arrow.gif" alt="arrow" class="nav_arrow" />
 			<xsl:value-of select="(courses/course/department[@code=$dept_code]/dept_short_name)[1]" />
 		</div>
 	</xsl:template>
