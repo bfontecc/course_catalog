@@ -3,8 +3,8 @@
         xmlns="http://www.w3.org/1999/xhtml"
         xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-	<xsl:param name="dept_code" />
 	<xsl:import href="common.xsl" />
+	<xsl:param name="dept_code" />
 	<xsl:output method="html" encoding="utf-8" omit-xml-declaration="yes" indent="yes" />
 
 	<xsl:template match="/">
