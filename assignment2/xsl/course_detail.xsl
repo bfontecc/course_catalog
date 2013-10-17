@@ -7,9 +7,11 @@
   <xsl:template match="/">
     
     <html>
+      <xsl:call-template name="header" />
       <body>
         <xsl:call-template name="title_content" />
         <xsl:apply-templates select="/courses/course[@cat_num eq $cat_num]" />
+        <xsl:call-template name="footer" />
       </body>
     </html>
   </xsl:template>
@@ -60,6 +62,7 @@
     </p>
     <p class="notes">
       <xsl:value-of select="notes" />
+      <xsl:comment> </xsl:comment>
     </p>
     
   </xsl:template>

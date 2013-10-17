@@ -7,7 +7,6 @@
 		<head>
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 			<title> 
-			<!-- static for now. Can use parameters though. -->
 			Harvard University FAS Course Catalog
 			</title>
 			<xsl:call-template name="css" />
@@ -16,8 +15,10 @@
 	</xsl:template>
 	
 	<xsl:template name="title_content">
-		<img src="{$base_url}/images/harvard_shield.png" />
-		<h1>Harvard University Faculty of Arts and Sciences Course Catalog</h1>
+		<div id="title">
+			<img src="{$base_url}/images/harvard_shield.png" />
+			<h1>Harvard University Faculty of Arts and Sciences Course Catalog</h1>
+		</div>
 	</xsl:template>
 	
 	<xsl:template name="footer">
