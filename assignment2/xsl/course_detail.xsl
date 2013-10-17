@@ -20,12 +20,21 @@
       <xsl:value-of select="title" />
     </h2>
     <h3>
+      <xsl:if test="instructor_approval_required = 'Y'">
+        <xsl:text>*</xsl:text>
+      </xsl:if>
+      <xsl:if test="@offered='N'">
+        <xsl:text> [</xsl:text>
+      </xsl:if>
       <xsl:value-of select="course_group" />
       <xsl:text> </xsl:text>
       <xsl:value-of select="course_number/num_int" />
       <xsl:value-of select="course_number/num_char" />
       <xsl:text>. </xsl:text>
       <xsl:value-of select="title" />
+      <xsl:if test="@offered='N'">
+        <xsl:text>] </xsl:text>
+      </xsl:if>
     </h3>
     <p class="cat_num">
       <xsl:text>Catalog Number: </xsl:text>
