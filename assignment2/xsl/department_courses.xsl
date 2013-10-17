@@ -98,7 +98,7 @@
 	</xsl:template>
 	
 	<xsl:template name="course_href">
-		<xsl:text>courses</xsl:text>
+		<xsl:text>../courses</xsl:text>
 		<xsl:text>/</xsl:text>
 		<xsl:value-of select="@cat_num" />
 		<xsl:text>.html</xsl:text>
