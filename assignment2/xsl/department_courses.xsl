@@ -57,7 +57,16 @@
 										<xsl:attribute name="href">
 											<xsl:call-template name="course_href" />
 										</xsl:attribute>
+										<xsl:if test="@offered = 'N'">
+											<xsl:text>[</xsl:text>
+										</xsl:if>
 										<xsl:value-of select="title" />
+										<xsl:if test="@offered = 'N'">
+											<xsl:text>]</xsl:text>
+										</xsl:if>
+										<xsl:if test="instructor_approval_required = 'Y'">
+											<xsl:text>*</xsl:text>
+										</xsl:if>
 									</xsl:element>
 								</td>
 							</tr>
@@ -80,6 +89,9 @@
 						</xsl:attribute>
 						<xsl:value-of select="$group_name" />
 					</xsl:element>
+					<xsl:if test="position() &lt; last()">
+						<xsl:text> | </xsl:text>
+					</xsl:if>
 				</xsl:if>
 			</xsl:for-each-group>
 		</div>
