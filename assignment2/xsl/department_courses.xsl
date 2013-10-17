@@ -6,13 +6,14 @@
 	<xsl:import href="common.xsl" />
 	<xsl:param name="dept_code" />
 	<xsl:output method="html" encoding="utf-8" omit-xml-declaration="yes" indent="yes" />
-
+	
 	<xsl:template match="/">
 		<html lang="en">
 			<xsl:call-template name="header" />
 			<body>
 				<xsl:call-template name="title_content" />
 				<xsl:call-template name="nav" />
+				<xsl:call-template name="group_anchors" />
 				<xsl:apply-templates />
 				<xsl:call-template name="footer" />
 			</body>
@@ -24,24 +25,21 @@
 			<div class="course_group" id="{current-grouping-key()}">
 				<table id="course_name">
 					<caption>
-						<h2>
-							<xsl:value-of select="./course_group[@code=current-grouping-key()]" />
-						</h2>
+						<h2> <xsl:value-of select="./course_group[@code=current-grouping-key()]" /> </h2>
 					</caption>
 					<thead>
 						<tr>
-							<th>Number</th>
-							<th>Term</th>
-							<th>Title</th>
+							<th>Number</th> <th>Term</th> <th>Title</th>	
 						</tr>
 					</thead>
 					<tbody>
 						<xsl:for-each select="current-group()">
-							<xsl:sort select="course_number/num_int" />
-							<xsl:sort select="course_number/num_char" />
+							<xsl:sort select="course_number/num_int" data-type="number"/>
+							<xsl:sort select="course_number/num_char" data-type="text"/>
 							<tr>
 								<td class="course_number">
 									<xsl:value-of select="./course_group[@code=current-grouping-key()]" />
+									<xsl:text> </xsl:text>
 									<xsl:value-of select="./course_number/num_int" />
 									<xsl:value-of select="./course_number/num_char" />
 								</td>
@@ -55,9 +53,22 @@
 						</xsl:for-each>
 					</tbody>
 				</table>
-				
 			</div>
+			<xsl:call-template name="group_anchors" />
 		</xsl:for-each-group>
+	</xsl:template>
+	
+	<xsl:template name="group_anchors">
+		<div id="group_anchors">
+			<xsl:for-each-group select="/courses/course[department/@code=$dept_code]" group-by="course_group/@code">
+				<xsl:element name="a">
+					<xsl:attribute name="href">
+						
+					</xsl:attribute>
+				</xsl:element>
+				<xsl:value-of select="./course_group[@code=current-grouping-key()]" />
+			</xsl:for-each-group>
+		</div>
 	</xsl:template>
 
 	<xsl:template name="nav">
