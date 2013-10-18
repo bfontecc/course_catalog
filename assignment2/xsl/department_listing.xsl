@@ -36,12 +36,11 @@
 	</xsl:template>
 
 	<xsl:template name="nav">
-		<div id="nav">
+		<div id="breadcrumbs">
 			<xsl:text>Departments</xsl:text>
 		</div>
 	</xsl:template>
 
-	<!-- override default behavior of outputting text nodes -->
 	<xsl:template match="text()">
 	</xsl:template>
 

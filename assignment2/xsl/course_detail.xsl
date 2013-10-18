@@ -8,6 +8,10 @@
     
     <html>
       <xsl:call-template name="header" />
+      <style type="text/css">
+        .faculty_text { font-style: italic; }
+        .notes, .desc { margin: 1em 3em; }
+      </style>
       <body>
         <xsl:call-template name="title_content" />
         <xsl:apply-templates select="/courses/course[@cat_num eq $cat_num]" />
@@ -68,7 +72,7 @@
   </xsl:template>
   
   <xsl:template name="nav">
-    <div id="nav">
+    <div id="breadcrumbs">
       <a href="../index.html">Departments</a>
       <img src="../images/arrow.gif" alt="arrow" class="nav_arrow" />
       <xsl:call-template name="dept_link" />

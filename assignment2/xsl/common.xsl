@@ -24,18 +24,15 @@
 	<xsl:template name="footer">
 		<div id="footer">
 			<hr />
-			<ul>
-				<li>Web Development with XML</li>
-				<li>Bret Fontecchio</li>
-				<li>Fall 2013</li>
-			</ul>
+				<xsl:text>
+				Web Development with XML | Bret Fontecchio | Fall 2013
+				</xsl:text>
 		</div>
 	</xsl:template>
 	
 	<xsl:template name="css">
-		<style src="{$base_url}/css/site.css" type="text/css">
-			<xsl:comment></xsl:comment>
-		</style> 
+		<link rel="stylesheet" type="text/css"
+			href="{$base_url}/css/site.css" title="site" media="screen" />
 	</xsl:template>
 	
 	<xsl:template name="js">
