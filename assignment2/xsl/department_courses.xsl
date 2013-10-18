@@ -25,7 +25,7 @@
 			<div class="course_group" id="{current-grouping-key()}">
 				<table id="course_name">
 					<caption>
-						<h2> <xsl:value-of select="$group_name" /> </h2>
+						<xsl:value-of select="$group_name" />
 					</caption>
 					<thead>
 						<tr>
@@ -78,7 +78,7 @@
 	</xsl:template>
 	
 	<xsl:template name="group_anchors">
-		<div id="group_anchors">
+		<div class="group_anchors">
 			<xsl:for-each-group select="/courses/course[department/@code=$dept_code]" group-by="course_group/@code">
 				<xsl:variable name="group_name" select="./course_group[@code=current-grouping-key()]" />
 				<xsl:if test="last() &gt; 1">

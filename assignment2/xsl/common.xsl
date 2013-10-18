@@ -16,7 +16,7 @@
 	
 	<xsl:template name="title_content">
 		<div id="title">
-			<img src="{$base_url}/images/harvard_shield.png" />
+			<img src="{$base_url}/images/harvard_shield.png" alt="shield" />
 			<h1>Harvard University Faculty of Arts and Sciences Course Catalog</h1>
 		</div>
 	</xsl:template>
