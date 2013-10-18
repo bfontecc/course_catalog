@@ -38,35 +38,15 @@
 							<xsl:sort select="course_number/num_char" data-type="text"/>
 							<tr>
 								<td class="course_number">
-									<xsl:element name="a">
-										<xsl:attribute name="href">
-											<xsl:call-template name="course_href" />
-										</xsl:attribute>
-										<xsl:value-of select="$group_name" />
-										<xsl:text> </xsl:text>
-										<xsl:value-of select="./course_number/num_int" />
-										<xsl:value-of select="./course_number/num_char" />
-									</xsl:element>
+									<xsl:call-template name="course_number">
+										<xsl:with-param name="group_name" select="$group_name"/>
+									</xsl:call-template>
 								</td>
 								<td class="term">
 									<xsl:value-of select="./term" />
 								</td>
 								<td class="course_title">
-									<xsl:element name="a">
-										<xsl:attribute name="href">
-											<xsl:call-template name="course_href" />
-										</xsl:attribute>
-										<xsl:if test="instructor_approval_required = 'Y'">
-											<xsl:text>*</xsl:text>
-										</xsl:if>
-										<xsl:if test="@offered = 'N'">
-											<xsl:text>[</xsl:text>
-										</xsl:if>
-										<xsl:value-of select="title" />
-										<xsl:if test="@offered = 'N'">
-											<xsl:text>]</xsl:text>
-										</xsl:if>
-									</xsl:element>
+									<xsl:call-template name="course_title" />
 								</td>
 							</tr>
 						</xsl:for-each>
@@ -75,6 +55,37 @@
 			</div>
 			<xsl:call-template name="group_anchors" />
 		</xsl:for-each-group>
+	</xsl:template>
+	
+	<xsl:template name="course_number">
+		<xsl:param name="group_name" />
+		<xsl:element name="a">
+			<xsl:attribute name="href">
+				<xsl:call-template name="course_href" />
+			</xsl:attribute>
+			<xsl:value-of select="$group_name" />
+			<xsl:text> </xsl:text>
+			<xsl:value-of select="./course_number/num_int" />
+			<xsl:value-of select="./course_number/num_char" />
+		</xsl:element>
+	</xsl:template>
+	
+	<xsl:template name="course_title">
+	<xsl:element name="a">
+		<xsl:attribute name="href">
+			<xsl:call-template name="course_href" />
+		</xsl:attribute>
+		<xsl:if test="instructor_approval_required = 'Y'">
+			<xsl:text>*</xsl:text>
+		</xsl:if>
+		<xsl:if test="@offered = 'N'">
+			<xsl:text>[</xsl:text>
+		</xsl:if>
+		<xsl:value-of select="title" />
+		<xsl:if test="@offered = 'N'">
+			<xsl:text>]</xsl:text>
+		</xsl:if>
+	</xsl:element>
 	</xsl:template>
 	
 	<xsl:template name="group_anchors">

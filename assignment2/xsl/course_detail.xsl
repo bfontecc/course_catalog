@@ -16,6 +16,7 @@
     </html>
   </xsl:template>
   
+  <!-- used pull style because data is not really nested, and xpaths can't be refactored -->
   <xsl:template match="*">
     <xsl:call-template name="nav" />
     <h2>
