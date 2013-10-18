@@ -8,10 +8,6 @@
     
     <html>
       <xsl:call-template name="header" />
-      <style type="text/css">
-        .faculty_text { font-style: italic; }
-        .notes, .desc { margin: 1em 3em; }
-      </style>
       <body>
         <xsl:call-template name="title_content" />
         <xsl:apply-templates select="/courses/course[@cat_num eq $cat_num]" />
