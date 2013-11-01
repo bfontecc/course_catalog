@@ -4,8 +4,9 @@
     xmlns:fo="http://www.w3.org/1999/XSL/Format"
     version="2.0">
     
+    <xsl:import href="toc.xsl"/>
+    <xsl:import href="attribute_sets.xsl"/>
     <xsl:output method="xml" encoding="utf-8" omit-xml-declaration="no" indent="yes" />
-    
     <xsl:param name="dept_code" />
     
     <xsl:template match="/">
@@ -26,7 +27,9 @@
                     <!-- generate department title -->
                     <xsl:call-template name="dept-title" />
                     <!-- generate table of contents -->
-                    <xsl:call-template name="TOC" />
+                    <xsl:call-template name="toc">
+                        <xsl:with-param name="dept_code" select="$dept_code" />
+                    </xsl:call-template>
                     <!-- loop through all courses for this department, grouped by course_group code, sorted alphabetically -->
                     <xsl:for-each-group select="courses/course[department/@code=$dept_code]" group-by="course_group/@code">
                         <xsl:sort select="course_group" />
@@ -91,49 +94,6 @@
             <xsl:value-of select="(courses/course[department/@code=$dept_code]/department/dept_long_name)[1]" />
         </fo:block>
     </xsl:template>
-    
-    <xsl:template name="TOC">
-        <!-- loop through all courses for this department, grouped by course_group code (just like before) -->
-        <xsl:for-each-group select="courses/course[department/@code=$dept_code]" group-by="course_group/@code">
-            <xsl:sort select="course_group" />
-            <!-- map our group code (which is the current-grouping key) to a more verbose group_name -->
-            <xsl:variable name="group_name" select="./course_group[@code=current-grouping-key()]" />
-            <!-- generate group link in bold text-->
-            <fo:block xsl:use-attribute-sets="title">
-                <xsl:call-template name="toc-link">
-                    <xsl:with-param name="anchor-text" select="$group_name" />
-                    <xsl:with-param name="anchor-dest" select="generate-id()" />
-                </xsl:call-template>
-            </fo:block>
-            <!-- generate course links in regular text-->
-            <xsl:for-each select="current-group()">
-                <xsl:sort select="course_number/num_int" />
-                <xsl:call-template name="toc-link">
-                    <xsl:with-param name="anchor-text" select="title" />
-                    <xsl:with-param name="anchor-dest" select="generate-id()" />
-                </xsl:call-template>
-            </xsl:for-each>
-        </xsl:for-each-group>
-    </xsl:template>
-    
-    <xsl:template name="toc-link">
-        <xsl:param name="anchor-text" />
-        <xsl:param name="anchor-dest" />
-        <fo:block xsl:use-attribute-sets="text" text-align-last="justify">
-            <fo:basic-link>
-                <xsl:attribute name="internal-destination">
-                    <xsl:value-of select="$anchor-dest" />
-                </xsl:attribute>
-                <xsl:value-of select="$anchor-text"/>
-            </fo:basic-link>
-            <fo:leader leader-pattern="dots"/>
-            <fo:page-number-citation>
-                <xsl:attribute name="ref-id">
-                    <xsl:value-of select="$anchor-dest" />
-                </xsl:attribute>
-            </fo:page-number-citation>
-        </fo:block>
-    </xsl:template>
 
     <xsl:template name="title">
         <xsl:if test="instructor_approval_required = 'Y'">
@@ -153,30 +113,6 @@
         </xsl:if>
     </xsl:template>
     
-    <xsl:attribute-set name="text">
-        <xsl:attribute name="font-family">Helvetica, sansSerif</xsl:attribute>
-        <xsl:attribute name="font-size">12pt</xsl:attribute>
-    </xsl:attribute-set>
-    
-    <xsl:attribute-set name="p">
-        <xsl:attribute name="space-before.optimum">.5em</xsl:attribute>
-        <xsl:attribute name="margin-left">1em</xsl:attribute>
-        <xsl:attribute name="text-indent">1em</xsl:attribute>
-        <xsl:attribute name="font-size">11pt</xsl:attribute>
-    </xsl:attribute-set>
-    
-    <xsl:attribute-set name="title">
-        <xsl:attribute name="space-before.optimum">1em</xsl:attribute>
-        <xsl:attribute name="space-after.optimum">.2em</xsl:attribute>
-        <xsl:attribute name="font-size">13pt</xsl:attribute>
-        <xsl:attribute name="font-weight">bold</xsl:attribute>
-    </xsl:attribute-set>
-    
-    <xsl:attribute-set name="group">
-        <xsl:attribute name="space-before.optimum">1em</xsl:attribute>
-        <xsl:attribute name="space-after.optimum">.2em</xsl:attribute>
-        <xsl:attribute name="font-size">16pt</xsl:attribute>
-        <xsl:attribute name="font-weight">bold</xsl:attribute>
-    </xsl:attribute-set>
+
     
 </xsl:stylesheet>

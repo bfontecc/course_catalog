@@ -8,6 +8,7 @@
     
     <xsl:template match="/">
         <html lang="en">
+            <xsl:call-template name="header" />
             <body>
                 <xsl:call-template name="title_content" />
                 <xsl:call-template name="nav" />
@@ -39,9 +40,9 @@
                         <td class="XSL-FO-link">
                             <xsl:element name="a">
                                 <xsl:attribute name="href">
-                                    <xsl:text>departments/</xsl:text>
+                                    <xsl:text>dept/</xsl:text>
                                     <xsl:value-of select="department/@code" />
-                                    <xsl:text>.xsl</xsl:text>
+                                    <xsl:text>.pdf?cocoon-view=xslfo</xsl:text>
                                 </xsl:attribute>
                                 XSL-FO
                             </xsl:element>
@@ -49,7 +50,7 @@
                         <td>
                             <xsl:element name="a">
                                 <xsl:attribute name="href">
-                                    <xsl:text>departments/</xsl:text>
+                                    <xsl:text>dept/</xsl:text>
                                     <xsl:value-of select="department/@code" />
                                     <xsl:text>.pdf</xsl:text>
                                 </xsl:attribute>
