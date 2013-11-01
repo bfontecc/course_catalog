@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map:sitemap xmlns:map="http://apache.org/cocoon/sitemap/1.0">
+    <map:flow language="javascript"/>
+    <map:pipelines>
+        <map:component-configurations>
+            <global-variables>
+                <base_url>/cocoon/assignment3</base_url>
+            </global-variables>
+        </map:component-configurations>
+        <map:pipeline type="noncaching">
+            <!-- redirect from / to index -->
+            <map:match pattern="">
+                <map:redirect-to uri="index.html" />
+            </map:match>
+            <!-- list FO and Mobile -->
+            <map:match pattern="index.html">
+                <map:read src="content/index.html" mime-type="text/html" />
+            </map:match>
+            <!-- FO dept listing -->
+            <map:match pattern="xslfo/index.html">
+                <map:generate src="data/courses.xml" />
+                <map:transform src="xsl/fo/department_listing.xsl" type="xslt2">
+                    <map:parameter name="base_url" value="{global:base_url}" />
+                </map:transform>
+                <map:serialize type="xhtml" />
+            </map:match>
+            <!-- FO pdf generation -->
+            <map:match pattern="xslfo/dept/*.pdf">
+                <map:generate src="data/courses.xml" />
+                <map:transform src="data/department_courses.xsl">
+                    <map:parameter name="dept" value="{1}" />
+                    <map:parameter name="base_url" value="{global:base_url}" />
+                </map:transform>
+            </map:match>
+        </map:pipeline>
+        <!-- these are generic match patterns that invoke
+         readers, so that cocoon can serve 'static' files 
+        -->
+        <map:pipeline>
+            <map:match pattern="**.html">
+                <map:read src="{1}.html" mime-type="text/html" />
+            </map:match>
+            <map:match pattern="**.xml">
+                <map:read src="{1}.xml" mime-type="text/xml" />
+            </map:match>
+            <map:match pattern="**.xsl">
+                <map:read src="{1}.xsl" mime-type="text/xml" />
+            </map:match>
+            <map:match pattern="**.css">
+                <map:read src="{1}.css" mime-type="text/css" />
+            </map:match>
+            <map:match pattern="**.png">
+                <map:read src="{1}.png" mime-type="image/png" />
+            </map:match>
+            <map:match pattern="**.gif">
+                <map:read src="{1}.gif" mime-type="image/gif" />
+            </map:match>
+            <map:match pattern="**.jpg">
+                <map:read src="{1}.jpg" mime-type="image/jpeg" />
+            </map:match>
+        </map:pipeline>
+    </map:pipelines>
+</map:sitemap>
