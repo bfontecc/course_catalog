@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map:sitemap xmlns:map="http://apache.org/cocoon/sitemap/1.0">
     <map:flow language="javascript"/>
+    <!-- view xslfo from transformation labelled fo -->
+    <map:views>
+        <map:view name="xslfo" from-label="fo">
+            <map:serialize type="xml" />
+        </map:view>
+    </map:views>
+    <map:serializers>
+        <map:serializer logger="sitemap.serializer.xml" mime-type="text/html"
+            name="html5" pool-max="32"
+            src="org.apache.cocoon.serialization.XMLSerializer">
+            <omit-xml-declaration>yes</omit-xml-declaration>
+            <method>xml</method>
+            <doctype-system>about:legacy-compat</doctype-system>
+            <encoding>UTF-8</encoding>
+        </map:serializer>
+    </map:serializers>
     <map:pipelines>
         <map:component-configurations>
             <global-variables>
@@ -24,13 +40,24 @@
                 </map:transform>
                 <map:serialize type="xhtml" />
             </map:match>
-            <!-- FO pdf generation -->
+            <!-- FO pdf generation with fo label at intermediate step -->
             <map:match pattern="xslfo/dept/*.pdf">
                 <map:generate src="data/courses.xml" />
-                <map:transform src="data/department_courses.xsl">
-                    <map:parameter name="dept" value="{1}" />
+                <map:transform label="fo" src="xsl/fo/department_courses.xsl" type="xslt2">
+                    <map:parameter name="dept_code" value="{1}" />
                     <map:parameter name="base_url" value="{global:base_url}" />
                 </map:transform>
+                <map:serialize type="fo2pdf"/>
+            </map:match>
+            <!-- Mobile (Responsive) dept listing
+                I decided to do a responsive page for my mobile site because responsive is basically
+                a superset of mobile and it seems more useful -->
+            <map:match pattern="mobile/index.html">
+                <map:generate src="data/courses.xml" />
+                <map:transform src="xsl/mobile/department_listing.xsl" type="xslt2">
+                    <map:parameter name="base_url" value="{global:base_url}" />
+                </map:transform>
+                <map:serialize type="html5" />
             </map:match>
         </map:pipeline>
         <!-- these are generic match patterns that invoke
