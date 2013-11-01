@@ -17,12 +17,14 @@
             </fo:layout-master-set>
             <fo:page-sequence master-reference="simple">
             <fo:flow flow-name="xsl-region-body">
+                <!-- generate department title -->
+                <xsl:call-template name="dept-title" />
                 <!-- generate table of contents -->
                 <xsl:call-template name="TOC" />
                 <!-- loop through all courses for this department, grouped by course_group code, sorted alphabetically -->
                 <xsl:for-each-group select="courses/course[department/@code=$dept_code]" group-by="course_group/@code">
                     <xsl:sort select="course_group" />
-                    <!-- create a block for this group, with id group code -->
+                    <!-- create a block for group, with group code from xml as id in fo -->
                     <fo:block id="{current-grouping-key()}">
                         <!-- show the group name -->
                         <fo:block xsl:use-attribute-sets="group" break-before="page">
@@ -65,6 +67,12 @@
             </fo:flow>
             </fo:page-sequence>
         </fo:root>
+    </xsl:template>
+    
+    <xsl:template name="dept-title">
+        <fo:block font-size="24pt" font-family="Times Serif" text-align="center" font-weight="bold">
+            <xsl:value-of select="(courses/course[department/@code=$dept_code]/department/dept_long_name)[1]" />
+        </fo:block>
     </xsl:template>
     
     <xsl:template name="TOC">
