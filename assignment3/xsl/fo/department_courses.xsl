@@ -19,11 +19,7 @@
             <!-- Page number in the top-right corner -->
             <fo:page-sequence master-reference="simple">
                 <fo:static-content flow-name="xsl-region-before">
-                    <fo:block font-size="10pt" text-align="end">
-                        <xsl:value-of select="(courses/course[department/@code=$dept_code]/department/dept_short_name)[1]" />
-                        <xsl:text>, Page </xsl:text>
-                        <fo:page-number />
-                    </fo:block>
+                    <xsl:call-template name="header" />
                 </fo:static-content>
                 <!-- Our main content -->
                 <fo:flow flow-name="xsl-region-body">
@@ -74,9 +70,20 @@
                             </xsl:for-each>
                         </fo:block>
                     </xsl:for-each-group>
+                    <fo:block id="doc-end" />
                 </fo:flow>
             </fo:page-sequence>
         </fo:root>
+    </xsl:template>
+    
+    <xsl:template name="header">
+        <fo:block font-size="10pt" text-align="end">
+            <xsl:value-of select="(courses/course[department/@code=$dept_code]/department/dept_short_name)[1]" />
+            <xsl:text>, Page </xsl:text>
+            <fo:page-number />
+            <xsl:text> of </xsl:text>
+            <fo:page-number-citation ref-id="doc-end" />
+        </fo:block>
     </xsl:template>
     
     <xsl:template name="dept-title">
