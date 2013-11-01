@@ -12,59 +12,69 @@
         <fo:root>
             <fo:layout-master-set>
                 <fo:simple-page-master master-name="simple" page-height="11in" page-width="8.5in" margin-top="1.0in" margin-bottom="1.0in" margin-left="1.25in" margin-right="1.25in">
-                    <fo:region-body margin-top="0.25in"/>
+                    <fo:region-body margin-top="3em"/>
+                    <fo:region-before extent="1em"/>
                 </fo:simple-page-master>
             </fo:layout-master-set>
+            <!-- Page number in the top-right corner -->
             <fo:page-sequence master-reference="simple">
-            <fo:flow flow-name="xsl-region-body">
-                <!-- generate department title -->
-                <xsl:call-template name="dept-title" />
-                <!-- generate table of contents -->
-                <xsl:call-template name="TOC" />
-                <!-- loop through all courses for this department, grouped by course_group code, sorted alphabetically -->
-                <xsl:for-each-group select="courses/course[department/@code=$dept_code]" group-by="course_group/@code">
-                    <xsl:sort select="course_group" />
-                    <!-- create a block for group, with group code from xml as id in fo -->
-                    <fo:block id="{current-grouping-key()}">
-                        <!-- show the group name -->
-                        <fo:block xsl:use-attribute-sets="group" break-before="page">
-                            <xsl:value-of select="./course_group[@code=current-grouping-key()]" />
-                        </fo:block>
-                        <!-- loop through each course in the group -->
-                        <xsl:for-each select="current-group()">
-                            <fo:block xsl:use-attribute-sets="title" id="{generate-id()}">
-                                <xsl:call-template name="title" />
-                            </fo:block>
-                            <fo:block xsl:use-attribute-sets="text" font-style="italic">
-                                <xsl:text>Catalog Number: </xsl:text>
-                                <xsl:value-of select="@cat_num" />
-                            </fo:block>
-                            <fo:block xsl:use-attribute-sets="text" font-style="italic">
-                                <xsl:value-of select="faculty_text" />
-                            </fo:block>
-                            <fo:block xsl:use-attribute-sets="text">
-                                <xsl:value-of select="credit" />
-                                <xsl:text> (</xsl:text>
-                                <xsl:value-of select="term" />
-                                <xsl:text>) </xsl:text>
-                                <xsl:value-of select="meeting_text" />
-                            </fo:block>
-                            <fo:block xsl:use-attribute-sets="text">
-                                <xsl:value-of select="course_level" />
-                                <xsl:text> / </xsl:text>
-                                <xsl:value-of select="course_type" />
-                            </fo:block>
-                            <fo:block xsl:use-attribute-sets="p">
-                                <xsl:value-of select="description" />
-                            </fo:block>
-                            <fo:block xsl:use-attribute-sets="p">
-                                <xsl:value-of select="notes" />
-                                <xsl:comment> </xsl:comment>
-                            </fo:block>
-                        </xsl:for-each>
+                <fo:static-content flow-name="xsl-region-before">
+                    <fo:block font-size="10pt" text-align="end">
+                        <xsl:value-of select="(courses/course[department/@code=$dept_code]/department/dept_short_name)[1]" />
+                        <xsl:text>, Page </xsl:text>
+                        <fo:page-number />
                     </fo:block>
-                </xsl:for-each-group>
-            </fo:flow>
+                </fo:static-content>
+                <!-- Our main content -->
+                <fo:flow flow-name="xsl-region-body">
+                    <!-- generate department title -->
+                    <xsl:call-template name="dept-title" />
+                    <!-- generate table of contents -->
+                    <xsl:call-template name="TOC" />
+                    <!-- loop through all courses for this department, grouped by course_group code, sorted alphabetically -->
+                    <xsl:for-each-group select="courses/course[department/@code=$dept_code]" group-by="course_group/@code">
+                        <xsl:sort select="course_group" />
+                        <!-- create a block for group, with group code from xml as id in fo -->
+                        <fo:block id="{current-grouping-key()}">
+                            <!-- show the group name -->
+                            <fo:block xsl:use-attribute-sets="group" break-before="page">
+                                <xsl:value-of select="./course_group[@code=current-grouping-key()]" />
+                            </fo:block>
+                            <!-- loop through each course in the group -->
+                            <xsl:for-each select="current-group()">
+                                <fo:block xsl:use-attribute-sets="title" id="{generate-id()}">
+                                    <xsl:call-template name="title" />
+                                </fo:block>
+                                <fo:block xsl:use-attribute-sets="text" font-style="italic">
+                                    <xsl:text>Catalog Number: </xsl:text>
+                                    <xsl:value-of select="@cat_num" />
+                                </fo:block>
+                                <fo:block xsl:use-attribute-sets="text" font-style="italic">
+                                    <xsl:value-of select="faculty_text" />
+                                </fo:block>
+                                <fo:block xsl:use-attribute-sets="text">
+                                    <xsl:value-of select="credit" />
+                                    <xsl:text> (</xsl:text>
+                                    <xsl:value-of select="term" />
+                                    <xsl:text>) </xsl:text>
+                                    <xsl:value-of select="meeting_text" />
+                                </fo:block>
+                                <fo:block xsl:use-attribute-sets="text">
+                                    <xsl:value-of select="course_level" />
+                                    <xsl:text> / </xsl:text>
+                                    <xsl:value-of select="course_type" />
+                                </fo:block>
+                                <fo:block xsl:use-attribute-sets="p">
+                                    <xsl:value-of select="description" />
+                                </fo:block>
+                                <fo:block xsl:use-attribute-sets="p">
+                                    <xsl:value-of select="notes" />
+                                    <xsl:comment> </xsl:comment>
+                                </fo:block>
+                            </xsl:for-each>
+                        </fo:block>
+                    </xsl:for-each-group>
+                </fo:flow>
             </fo:page-sequence>
         </fo:root>
     </xsl:template>
@@ -93,7 +103,7 @@
                 <xsl:sort select="course_number/num_int" />
                 <xsl:call-template name="toc-link">
                     <xsl:with-param name="anchor-text" select="title" />
-                    <xsl:with-param name="anchor-dest" select="generate-id()"></xsl:with-param>
+                    <xsl:with-param name="anchor-dest" select="generate-id()" />
                 </xsl:call-template>
             </xsl:for-each>
         </xsl:for-each-group>
