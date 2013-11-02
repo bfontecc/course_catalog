@@ -2,21 +2,53 @@
 body { 
     margin: 1em 3em;
     font-family: arial, helvetica, sans-serif;
+    font-size: 12pt;
 }
+
+h1 {
+    font-size: 1.6em;
+}
+
+h2 {
+    font-size: 1.25em;
+}
+
+/* for medium screens */
+@media all and (max-device-width: 720px) {
+    body {
+        font-size: 18pt;
+        margin: .5em;
+    }
+    * {
+        float: none;
+    }
+}
+
+/* for small screens */
+@media all and (max-device-width: 480px) {
+    body {
+        font-size: 20pt;
+        margin: .25em;
+    }
+    * {
+        float: none;
+    }
+}
+
 #title > img {
-    float:left;
+    float: left;
     margin: 0 1em;
 }
-#breadcrumbs { 
-    clear:both;
+nav { 
+    clear: both;
     background-color: rgb(238, 238, 238);
 }
-#breadcrumbs > * {
+nav > * {
     margin: 0 .1em .2em .1em;
     padding: 0;
     font-size: .9em;
 }
-#footer {
+footer {
     margin: 5em 0 0 0;
     width: 100%;
     text-align: center;
@@ -38,14 +70,14 @@ table {
     width: 100%;
     margin: 1em 0;
     border-collapse: collapse;
-    font-size: .9em;
+    font-size: 90%;
     text-align: left;
 }
 td {
      border: black .1em solid;
      padding: .15em .5em;
 }
-tr {
+tr, li {
      margin: 0;
      padding: 0;
 }
@@ -62,3 +94,4 @@ thead th {
     text-align: left;
     padding: .1em 0 .1em 1em;
 }
+
