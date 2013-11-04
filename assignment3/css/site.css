@@ -57,7 +57,8 @@ ul {
     list-style-type: none;
 }
 li {
-    margin: .1em;
+    margin: .2em;
+    padding: .2em;
 }
 .group_anchors {
     text-align:center;

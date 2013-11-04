@@ -41,11 +41,14 @@
             <xsl:value-of select="(course/course_group[@code=$group_code])[1]"/>
         </h2>
         <ul class="course_list">
+            <!-- for each course in the group -->
             <xsl:for-each select="/courses/course[course_group/@code=$group_code]">
                 <xsl:sort select="course_number/num_int" />
-                <li class="course_item">
-                <xsl:call-template name="course_title" />
-                </li>
+                <xsl:if test="@offered = 'Y'">
+                    <li class="course_item">
+                    <xsl:call-template name="course_title" />
+                    </li>
+                </xsl:if>
             </xsl:for-each>
         </ul>
     </xsl:template>
@@ -58,13 +61,7 @@
             <xsl:if test="instructor_approval_required = 'Y'">
                 <xsl:text>*</xsl:text>
             </xsl:if>
-            <xsl:if test="@offered = 'N'">
-                <xsl:text>[</xsl:text>
-            </xsl:if>
             <xsl:value-of select="title" />
-            <xsl:if test="@offered = 'N'">
-                <xsl:text>]</xsl:text>
-            </xsl:if>
         </xsl:element>
     </xsl:template>
     

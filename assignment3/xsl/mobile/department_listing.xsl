@@ -17,11 +17,14 @@
                         list-style-type: square;
                         list-style-position: outside;
                         margin-left: 1em;
-                        padding-left: .5em;
+                        padding-left: .2em;
                     }
                     .group_list {
-                        margin: 0;
                         padding: 0;
+                        margin: .2em;
+                    }
+                    .department_list {
+                        clear: both;
                     }
                 </style>
             </head>
