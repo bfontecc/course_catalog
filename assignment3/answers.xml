@@ -1,9 +1,14 @@
 <answers assignment="3">
-<name></name>
-<email></email>
+<name>Bretagne A. Delvecchio-Fontecchio</name>
+<email>bret.fontecchio@gmail.com</email>
 <p>How I tested my mobile profile site:</p>
 <p>
-
+	I used Opera Mobile to simulate two Amazon Kindles, and two HTC phones. I made sure to have one 
+long skinny tablet, one shorter fatter tablet, one large phone and one small phone. I also tried them
+landscape, and used tap gestures to zoom in and out.
+	I found the Opera Mobile app extremely useful, although there are still enough variables I don't
+understand that I was not able to calculate font sizes without trial and error. Maybe next time I will
+get on that level.
 </p>
 <!-- 
      Any comments on the use of tokens or other
