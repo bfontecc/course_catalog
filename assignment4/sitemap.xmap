@@ -2,22 +2,66 @@
 <map:sitemap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:schemaLocation="http://apache.org/cocoon/sitemap/1.0 http://cocoon.apache.org/schema/sitemap/cocoon-sitemap-1.0.xsd"
  xmlns:map="http://apache.org/cocoon/sitemap/1.0">
-
+  
+  <!-- make sure xml is serialized as UTF-8 -->
+  <map:components>
+    <map:serializers>
+    <map:serializer name="xml"         
+      src="org.apache.cocoon.serialization.XMLSerializer"
+      mime-type="text/xml">
+      <encoding>UTF-8</encoding>
+      <indent>yes</indent>
+    </map:serializer>
+      <!-- try xalan for text -->
+      <map:serializer name="json" 
+        logger="sitemap.serializer.text" 
+        mime-type="application/x-javascript"
+        src="org.apache.cocoon.serialization.TextSerializer">
+        <method>text</method>
+        <encoding>UTF-8</encoding>
+        <transformer-factory>org.apache.xalan.processor.TransformerFactoryImpl</transformer-factory>
+      </map:serializer>
+    </map:serializers>
+  </map:components>
+  
   <map:resources>
+    <!-- search filter resource -->
+    <map:resource name="search_filter">
+      <map:generate src="data/courses.xml" />
+      <map:transform src="xsl/search.xsl" type="xslt2">
+        <map:parameter name="keyword" value="{request-param:keyword}"/>
+        <map:parameter name="course_group" value="{request-param:course_group}"/>
+        <map:parameter name="term" value="{request-param:term}"/>
+        <map:parameter name="offered" value="{request-param:offered}"/>
+        <map:parameter name="course_type" value="{request-param:course_type}"/>
+      </map:transform>
+    </map:resource>
   </map:resources>
   
   <map:pipelines>
     <map:pipeline>
       <map:match pattern="">
-	<map:redirect-to uri="index.html"/>
+	       <map:redirect-to uri="index.html"/>
       </map:match>
-
+      <!-- JSON search filter -->
+      <map:match pattern="ajax/search.json">
+        <map:call resource="search_filter" />
+        <map:transform type="xslt2" src="xsl/xml2json.xsl" />
+        <map:serialize type="json"/>
+      </map:match>
+      <!-- XML search filter -->
+      <map:match pattern="ajax/search.xml">
+        <map:call resource="search_filter">
+        </map:call>
+        <map:serialize type="xml" />
+      </map:match>
+      <!-- search fields -->
       <map:match pattern="ajax/searchfields.xml">
         <map:generate src="data/courses.xml"/>
         <map:transform src="xsl_provided/searchfields.xsl" type="xslt2" />
         <map:serialize type="xml" />
       </map:match> 
-
+      <!-- static documents -->
       <map:match pattern="**.html">
         <map:read src="web/{1}.html" mime-type="text/html"/>
       </map:match>
@@ -52,7 +96,6 @@
         <map:read src="web/{1}.xml" mime-type="text/xml"/>
       </map:match>
     </map:pipeline>
-
   </map:pipelines>
 
 </map:sitemap>
