@@ -2,6 +2,8 @@
 <xsl:stylesheet version="2.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns="http://www.w3.org/1999/xhtml">
+	<!-- there are no output options here because the serializer has the last say anyway.
+		see sitemap.xmap components for serializer output options -->
     
     <!-- search criteria -->
     <xsl:param name="keyword" />
@@ -22,6 +24,7 @@
             )]"/>
         </courses>
     </xsl:template>
+	<!-- this is only called from a select, i.e. we have already filtered when we match course -->
     <xsl:template match="course">
         <xsl:copy-of select="." />
     </xsl:template>

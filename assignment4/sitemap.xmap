@@ -12,7 +12,7 @@
       <encoding>UTF-8</encoding>
       <indent>yes</indent>
     </map:serializer>
-      <!-- try xalan for text -->
+      <!-- use xalan for text -->
       <map:serializer name="json" 
         logger="sitemap.serializer.text" 
         mime-type="application/x-javascript"
