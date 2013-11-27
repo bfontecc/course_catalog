@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+Principles of Economics
+	catalog number:3660
+	total enrollment:767 
+Classical Chinese Ethical and Political Theory
+	catalog number:9742
+	total enrollment:725 
+Introduction to Computer Science I
+	catalog number:4949
+	total enrollment:591 
+Introduction to Probability
+	catalog number:147
+	total enrollment:458 
+An Integrated Introduction to the Life Sciences: Chemistry, Molecular Biology, and Cell Biology
+	catalog number:2137
+	total enrollment:419 
+Introduction to Quantitative Methods for Economics
+	catalog number:4582
+	total enrollment:392 
+Multivariable Calculus
+	catalog number:6760
+	total enrollment:376 
+Psychological Science
+	catalog number:16308
+	total enrollment:365 
+Science and Cooking: From Haute Cuisine to Soft Matter Science
+	catalog number:73191
+	total enrollment:313 
+Foundations of Comparative Politics
+	catalog number:6166
+	total enrollment:310
